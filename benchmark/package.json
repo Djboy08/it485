@@ -7,9 +7,12 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.1.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.1",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
@@ -18,10 +21,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "s3cmd sync --no-mime-magic --guess-mime-type ./build/* s3://it485 && echo 'deployed!'",
-    "css": "s3cmd put -m 'text/css' ./build/static/css/*  s3://it485/static/css/",
-    "js": "s3cmd put -m 'text/javascript' ./build/static/js/*  s3://it485/static/js/",
-    "media": "s3cmd put -m 'image/svg' ./build/static/media/*  s3://it485/static/media/"
+    "deploy": "s3cmd sync --no-mime-magic --guess-mime-type ./build/* s3://it485.justindoane.com && echo 'deployed!'",
+    "css": "s3cmd put -m 'text/css' ./build/static/css/*  s3://it485.justindoane.com/static/css/",
+    "js": "s3cmd put -m 'text/javascript' ./build/static/js/*  s3://it485.justindoane.com/static/js/",
+    "media": "s3cmd put -m 'image/svg' ./build/static/media/*  s3://it485.justindoane.com/static/media/"
   },
   "eslintConfig": {
     "extends": [

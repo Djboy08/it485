@@ -1,5 +1,6 @@
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import logo from '../assets/logo.png'
+
 function NavBar(props) {
 
   return (

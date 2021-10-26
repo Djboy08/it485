@@ -1,47 +1,14 @@
 // import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
-// import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 function Footer(props) {
   return (
     <>
-      <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
-          <section class="mb-4">
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-facebook-f"></i>
-            </a>
+      <footer class="bg-dark d-flex flex-wrap justify-content-between align-items-center py-3">
+        <p class="col-md-4 mb-0 text-muted">© 2021 Benchmark</p>
 
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-twitter"></i>
-            </a>
-
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-google"></i>
-            </a>
-
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-instagram"></i>
-            </a>
-
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-
-            <a class="btn btn-outline-light btn-floating m-1" role="button">
-              <i class="fab fa-github"></i>
-            </a>
-          </section>
-        </div>
-
-        <div
-          class="text-center p-3"
-          style={{ 
-              backgroundColor: "rgba(0, 0, 0, 0.2)"
-            }}
-          //   style="background-color: rgba(0, 0, 0, 0.2);"
-        >
-          © 2020 Copyright:
-          <a class="text-white">MDBootstrap.com</a>
-        </div>
+        <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img class="bi me-2" width="40" height="32" src={logo}></img>
+        </a>
       </footer>
     </>
   );

@@ -1,0 +1,29 @@
+
+function HomeCard(props) {
+  return (
+    <>
+      <div class="col-lg-4 py-5" style={{color: "white"}}>
+        <svg
+          class="bd-placeholder-img rounded-circle"
+          width="140"
+          height="140"
+          xmlns="http://www.w3.org/2000/svg"
+          role="img"
+          aria-label="Placeholder: 140x140"
+          focusable="false"
+        >
+            <image style = {{width: "140", height: "140px"}}href={props.src}></image>
+            
+        </svg>
+        <h4>{props.title}</h4>
+        <p>
+          {props.description}
+        </p>
+        <p>
+        </p>
+      </div>
+    </>
+  );
+}
+
+export default HomeCard;

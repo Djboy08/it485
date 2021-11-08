@@ -13,7 +13,7 @@ url = "https://www.gpucheck.com/graphics-cards"
 req = requests.get(url, headers)
 soup = BeautifulSoup(req.content, 'html.parser')
 
-class ScrapePython():
+class ScrapeGPUs():
     def __init__(self, soup):
         self._soup = soup
         self.parse_names()
@@ -75,12 +75,12 @@ class ScrapePython():
     def get_data(self):
         return self._data
 
-scraper = ScrapePython(soup)
+scraper = ScrapeGPUs(soup)
 data = scraper.get_data().__str__()
 
-f = open("demofile2.txt", "w")
-f.write(data)
-f.close()
+# f = open("demofile2.txt", "w")
+# f.write(data)
+# f.close()
 print(data)
 
 # print(scraper)

@@ -1,90 +1,11 @@
 {
-    "Core i5-10400F": {
-        "L3Cache": "12MB",
-        "Released": "Apr 30th, 2020",
-        "Tdp": "65 W",
-        "clock": "2.9 to 4.3 GHz",
-        "codename": "Comet Lake",
-        "cores": "6  / 12",
-        "name": "Core i5-10400F",
-        "process": "14 nm",
-        "socket": "Socket 1200"
-    },
-    "Core i9-12900K": {
-        "L3Cache": "30MB",
-        "Released": "Nov 4th, 2021",
-        "Tdp": "125 W",
-        "clock": "3.2 to 5.2 GHz",
-        "codename": "Alder Lake",
-        "cores": "16  / 24",
-        "name": "Core i9-12900K",
-        "process": "10 nm",
-        "socket": "Socket 1700"
-    },
-    "Ryzen 5 3600": {
-        "L3Cache": "32MB",
-        "Released": "Jul 7th, 2019",
-        "Tdp": "65 W",
-        "clock": "3.6 to 4.2 GHz",
-        "codename": "Matisse",
-        "cores": "6  / 12",
-        "name": "Ryzen 5 3600",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    },
-    "Ryzen 5 5600G": {
-        "L3Cache": "16MB",
-        "Released": "Apr 13th, 2021",
-        "Tdp": "65 W",
-        "clock": "3.9 to 4.4 GHz",
-        "codename": "Cezanne",
-        "cores": "6  / 12",
-        "name": "Ryzen 5 5600G",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    },
-    "Ryzen 5 5600X": {
-        "L3Cache": "32MB",
-        "Released": "Nov 5th, 2020",
-        "Tdp": "65 W",
-        "clock": "3.7 to 4.6 GHz",
-        "codename": "Vermeer",
-        "cores": "6  / 12",
-        "name": "Ryzen 5 5600X",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    },
-    "Ryzen 7 3700X": {
-        "L3Cache": "32MB",
-        "Released": "Jul 7th, 2019",
-        "Tdp": "65 W",
-        "clock": "3.6 to 4.4 GHz",
-        "codename": "Matisse",
-        "cores": "8  / 16",
-        "name": "Ryzen 7 3700X",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    },
-    "Ryzen 7 5700G": {
-        "L3Cache": "16MB",
-        "Released": "Apr 13th, 2021",
-        "Tdp": "65 W",
-        "clock": "3.8 to 4.6 GHz",
-        "codename": "Cezanne",
-        "cores": "8  / 16",
-        "name": "Ryzen 7 5700G",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    },
-    "Ryzen 7 5800X": {
-        "L3Cache": "32MB",
-        "Released": "Nov 5th, 2020",
-        "Tdp": "105 W",
-        "clock": "3.8 to 4.7 GHz",
-        "codename": "Vermeer",
-        "cores": "8  / 16",
-        "name": "Ryzen 7 5800X",
-        "process": "7 nm",
-        "socket": "Socket AM4"
-    }
+    "L3Cache": "32MB",
+    "Released": "Jul 7th, 2019",
+    "Tdp": "65 W",
+    "clock": "3.6 to 4.4 GHz",
+    "codename": "Matisse",
+    "cores": "8  / 16",
+    "name": "Ryzen 7 3700X",
+    "process": "7 nm",
+    "socket": "Socket AM4"
 }

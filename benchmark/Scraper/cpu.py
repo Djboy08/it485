@@ -62,8 +62,8 @@ class ScrapeCPUs():
                 "Tdp": Tdp,
                 "Released": Released
             }
-            # temp = open("./cpus/"+name + ".json", "w") 
-            # json.dump(self._CPUS, temp, indent=4, sort_keys=True)
+            temp = open("./cpus/"+name + ".json", "w") 
+            json.dump(self._CPUS[name], temp, indent=4, sort_keys=True)
             # temp.close()
             print(self._CPUS[name])
             print("---------------")

@@ -1,0 +1,4438 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   CPU Database | TechPowerUp
+  </title>
+  <meta content="CPU database with latest specifications for processors launched in recent years. Includes clocks, photos, and compatibility info." name="description"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://tpucdn.com" rel="preconnect"/>
+  <meta content="TechPowerUp" name="application-name"/>
+  <link as="style" crossorigin="" href="https://tpucdn.com/css/style-v1637500217419.css" rel="preload stylesheet"/>
+  <link as="font" crossorigin="" href="https://tpucdn.com/css/fonts/tpu-body-regular-v1637500217419.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="" href="https://tpucdn.com/css/fonts/tpu-body-bold-v1637500217419.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="" href="https://tpucdn.com/css/fonts/opensans-condbold-v1637500217419.woff2" rel="preload" type="font/woff2"/>
+  <meta content="https://www.facebook.com/TechPowerUp" property="article:publisher">
+   <meta content="TechPowerUp" property="og:site_name"/>
+   <meta content="TechPowerUp" property="og:title"/>
+   <meta content="website" property="og:type"/>
+   <meta content="" property="og:description"/>
+   <meta content="https://tpucdn.com/images/logo_og-v1637500217419.png" property="og:image"/>
+   <link href="https://tpucdn.com/favicon-v1637500217419.ico" rel="shortcut icon"/>
+   <link href="https://tpucdn.com/apple-touch-icon-v1637500217419.png" rel="apple-touch-icon"/>
+   <meta content="#b50000" name="theme-color">
+    <link href="https://tpucdn.com/css/style-v1637500217419.css" rel="stylesheet"/>
+    <link href="https://tpucdn.com/css/databases-v1637500217419.css" rel="stylesheet"/>
+    <script>
+     loadjs=function(){var n=function(){},e={},t={},r={};function c(n,e){if(n){var c=r[n];if(t[n]=e,c)for(;c.length;)c[0](n,e),c.splice(0,1)}}function i(e,t){e.call&&(e={success:e}),t.length?(e.error||n)(t):(e.success||n)(e)}function o(e,t,r,c){var i,s,u=document,f=r.async,a=(r.numRetries||0)+1,h=r.before||n;c=c||0,/(^css!|\.css$)/.test(e)?(i=!0,(s=u.createElement("link")).rel="stylesheet",s.href=e.replace(/^css!/,"")):((s=u.createElement("script")).src=e,s.async=void 0===f||f),s.onload=s.onerror=s.onbeforeload=function(n){var u=n.type[0];if(i&&"hideFocus"in s)try{s.sheet.cssText.length||(u="e")}catch(n){u="e"}if("e"==u&&(c+=1)<a)return o(e,t,r,c);t(e,u,n.defaultPrevented)},!1!==h(e,s)&&u.head.appendChild(s)}function s(n,t,r){var s,u;if(t&&t.trim&&(s=t),u=(s?r:t)||{},s){if(s in e)throw"LoadJS";e[s]=!0}!function(n,e,t){var r,c,i=(n=n.push?n:[n]).length,s=i,u=[];for(r=function(n,t,r){if("e"==t&&u.push(n),"b"==t){if(!r)return;u.push(n)}--i||e(u)},c=0;c<s;c++)o(n[c],r,t)}(n,function(n){i(u,n),c(s,n)},u)}return s.ready=function(n,e){return function(n,e){var c,i,o,s=[],u=(n=n.push?n:[n]).length,f=u;for(c=function(n,t){t.length&&s.push(n),--f||e(s)};u--;)i=n[u],(o=t[i])?c(i,o):(r[i]=r[i]||[]).push(c)}(n,function(n){i(e,n)}),s},s.done=function(n){c(n,[])},s.reset=function(){e={},t={},r={}},s.isDefined=function(n){return n in e},s}();
+    </script>
+    <!--[if lt IE 9]><script src="https://tpucdn.com/js/html5shiv.min-v1637500217419.js"></script><![endif]-->
+    <!--[if lt IE 9]><script>window.onerror = function(){ return true; }</script><![endif]-->
+    <script>
+     loadjs(["https://tpucdn.com/js/jquery-3.6.0.min-v1637500217419.js", "https://tpucdn.com/js/tpu-v1637500217419.js"], { async: false, success: function() { $(function() { loadjs.done('jquery'); }); }});
+
+			loadjs.ready(['jquery'], function() {
+				
+				loadjs(["https://tpucdn.com/js/popup/popup.min-v1637500217419.css", "https://tpucdn.com/js/popup/popup.min-v1637500217419.js"], 'popup');
+
+												loadjs(["https://tpucdn.com/js/highlight/jquery.highlight.min-v1637500217419.js"], 'highlight');																																											});
+    </script>
+    <link href="/rss/news" rel="alternate" title="TechPowerUp Frontpage News" type="application/rss+xml"/>
+    <link href="/rss/reviews" rel="alternate" title="TechPowerup Reviews" type="application/rss+xml"/>
+    <noscript>
+     <style>
+      .jsonly { display: none !important; }
+     </style>
+    </noscript>
+   </meta>
+  </meta>
+ </head>
+ <body class="body cpudb">
+  <div id="viewport">
+   <div class="no-ad-found">
+   </div>
+   <span class="a440b2d1e27db8da81763c5d197795dc">
+   </span>
+   <header class="site-headr clearfix" id="top">
+    <span class="site-headr__logo-wrapper --ublock-love--really-nice-idea-targeting-the-label" style="display:block">
+     <label class="navigation-toggle" for="navigation-check" onclick="" title="Menu">
+     </label>
+     <label class="sidebar-toggle" for="sidebar-check" onclick="" title="Right-side Bar">
+     </label>
+     <script>
+      loadjs.ready(['jquery'], function() {
+							$('.side-aslkdhsajkd-bar').clone().insertBefore('#page').addClass('sidebar--responsive');
+							$('#navigation-check').prop('checked', false).on('click', function() {
+								$('html').toggleClass('navigation-active', $(this).is(':checked'));
+							});
+							$('#sidebar-check').prop('checked', false).on('click', function() {
+								$('html').toggleClass('sidebar-active', $(this).is(':checked'));
+							});
+						});
+     </script>
+     <a class="site-headr__logo" href="/" title="TechPowerUp">
+     </a>
+    </span>
+    <span clas="nkuzlfvdywj">
+     <i>
+      <a href="http://www.techpowerup.com/images/1ec/1645.png">
+       <img alt="" src="https://tpucdn.com/review/pzqgr-2457018040pzqgr/images/0d47752d.jpg"/>
+      </a>
+     </i>
+     <span class="a440b2d1e27db8da81763c5d197795dc">
+     </span>
+    </span>
+   </header>
+   <input id="sidebar-check" type="checkbox"/>
+   <input id="navigation-check" type="checkbox"/>
+   <nav id="menu">
+    <label for="navigation-check" id="menu-toggle" onclick="" title="Close">
+    </label>
+    <ul>
+     <li>
+      <a href="/">
+       Home
+      </a>
+     </li>
+     <li>
+      <a href="/review/">
+       Reviews
+      </a>
+     </li>
+     <li>
+      <a href="/forums/">
+       Forums
+      </a>
+     </li>
+     <li>
+      <a href="/download/">
+       Downloads
+      </a>
+     </li>
+     <li>
+      <a href="/gallery/">
+       Case Mod Gallery
+      </a>
+     </li>
+     <li>
+      <label class="menu-toggle-sub" for="menu-databases" onclick="">
+       Databases
+      </label>
+      <input class="sub-menu-check" id="menu-databases" type="checkbox"/>
+      <ul class="sub-menu" id="menu-databases-sub">
+       <li class="menu-sub-heading">
+        Databases…
+        <label class="menu-back" for="menu-databases" onclick="" title="Back">
+         Back
+        </label>
+       </li>
+       <li>
+        <a href="/vgabios/">
+         VGA Bios Collection
+        </a>
+       </li>
+       <li>
+        <a href="/gpu-specs/">
+         GPU Database
+        </a>
+       </li>
+       <li>
+        <a href="/cpu-specs/">
+         CPU Database
+        </a>
+       </li>
+       <li>
+        <a href="/reviewdb/">
+         Review Database
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <label class="menu-toggle-sub" for="menu-software" onclick="">
+       Our Software
+      </label>
+      <input class="sub-menu-check" id="menu-software" type="checkbox"/>
+      <ul class="sub-menu" id="menu-software-sub">
+       <li class="menu-sub-heading">
+        Our Software…
+        <label class="menu-back" for="menu-software" onclick="" title="Back">
+         Back
+        </label>
+       </li>
+       <li>
+        <a href="/gpuz/">
+         GPU-Z
+        </a>
+       </li>
+       <li>
+        <a href="/realtemp/">
+         RealTemp
+        </a>
+       </li>
+       <li>
+        <a href="/nvcleanstall/">
+         NVCleanstall
+        </a>
+       </li>
+       <li>
+        <a href="/tpucapture/">
+         TPUCapture
+        </a>
+       </li>
+       <li>
+        <a href="/memtest64/">
+         MemTest64
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <label class="menu-toggle-sub" for="menu-more" onclick="">
+       More
+      </label>
+      <input class="sub-menu-check" id="menu-more" type="checkbox"/>
+      <ul class="sub-menu" id="menu-more-sub">
+       <li class="menu-sub-heading">
+        More…
+        <label class="menu-back" for="menu-more" onclick="" title="Back">
+         Back
+        </label>
+       </li>
+       <li>
+        <a href="/articles/">
+         Articles
+        </a>
+       </li>
+       <li>
+        <a href="/oldstuff/">
+         Old Stuff
+        </a>
+       </li>
+       <li>
+        <a href="/trivia/">
+         Computer Trivia
+        </a>
+       </li>
+       <li>
+        <a href="/live/">
+         TPU Live
+        </a>
+       </li>
+       <li>
+        <a href="http://www.techpowerup.org" target="_top">
+         Free Image Hosting
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <a href="/contact/">
+       Contact Us
+      </a>
+     </li>
+     <li class="social">
+      <a class="facebook" href="https://www.facebook.com/TechPowerUp" rel="nofollow noopener" target="_blank" title="Facebook">
+      </a>
+      <a class="twitter" href="https://twitter.com/TechPowerUp" rel="nofollow noopener" target="_blank" title="Twitter">
+      </a>
+      <a class="patreon" href="https://www.patreon.com/TechPowerUp" rel="nofollow noopener" target="_blank" title="Patreon">
+      </a>
+      <a class="instagram" href="https://www.instagram.com/techpowerupofficial/" rel="nofollow noopener" target="_blank" title="Instagram">
+      </a>
+      <a class="youtube" href="https://www.youtube.com/c/TechPowerUp" rel="nofollow noopener" target="_blank" title="YouTube">
+      </a>
+      <a class="rss" href="/rss/" title="RSS">
+      </a>
+     </li>
+    </ul>
+   </nav>
+   <span class="clearfix --ublock-love--really-nice-idea-targeting-the-label" id="page" style="display:block">
+    <article class="content ">
+     <h1 class="pagetitle">
+      CPU Specs Database
+     </h1>
+     <p class="p">
+      Below you will find a  processor list of the CPUs released in recent years. This reference CPU Database will help you find the processor specs of your CPU or the specifications of the one you are looking to buy.
+     </p>
+     <p class="p">
+      Comments can be posted
+      <a href="/forums/showthread.php?t=6751" target="_blank">
+       in this thread
+      </a>
+      .
+     </p>
+     <form action="/cpu-specs/" autocomplete="off" id="form" method="get">
+      <section class="search">
+       <h1>
+        Refine Search Parameters
+       </h1>
+       <div>
+        <fieldset class="filters">
+         <ul class="clearfix">
+          <li>
+           <label for="mfgr">
+            Manufacturer
+           </label>
+           <select id="mfgr" name="mfgr">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="AMD">
+             AMD (953)
+            </option>
+            <option value="Intel">
+             Intel (1488)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="released">
+            Release Date
+           </label>
+           <select id="released" name="released">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="2021">
+             2021 (141)
+            </option>
+            <option value="2020">
+             2020 (96)
+            </option>
+            <option value="2019">
+             2019 (101)
+            </option>
+            <option value="2018">
+             2018 (111)
+            </option>
+            <option value="2017">
+             2017 (109)
+            </option>
+            <option value="2016">
+             2016 (22)
+            </option>
+            <option value="2015">
+             2015 (51)
+            </option>
+            <option value="2014">
+             2014 (61)
+            </option>
+            <option value="2013">
+             2013 (229)
+            </option>
+            <option value="2012">
+             2012 (240)
+            </option>
+            <option value="2011">
+             2011 (200)
+            </option>
+            <option value="2010">
+             2010 (144)
+            </option>
+            <option value="2009">
+             2009 (115)
+            </option>
+            <option value="2008">
+             2008 (112)
+            </option>
+            <option value="2007">
+             2007 (69)
+            </option>
+            <option value="2006">
+             2006 (135)
+            </option>
+            <option value="2005">
+             2005 (154)
+            </option>
+            <option value="2004">
+             2004 (136)
+            </option>
+            <option value="2003">
+             2003 (73)
+            </option>
+            <option value="2002">
+             2002 (39)
+            </option>
+            <option value="2001">
+             2001 (86)
+            </option>
+            <option value="2000">
+             2000 (17)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="mobile">
+            Mobile
+           </label>
+           <select id="mobile" name="mobile">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="No">
+             No (1728)
+            </option>
+            <option value="Yes">
+             Yes (713)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="server">
+            Server
+           </label>
+           <select id="server" name="server">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="No">
+             No (1883)
+            </option>
+            <option value="Yes">
+             Yes (558)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="tdp">
+            TDP
+           </label>
+           <select id="tdp" name="tdp">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="1 W">
+             1 W (6)
+            </option>
+            <option value="2 W">
+             2 W (14)
+            </option>
+            <option value="3 W">
+             3 W (21)
+            </option>
+            <option value="4 W">
+             4 W (12)
+            </option>
+            <option value="5 W">
+             5 W (16)
+            </option>
+            <option value="6 W">
+             6 W (6)
+            </option>
+            <option value="7 W">
+             7 W (17)
+            </option>
+            <option value="8 W">
+             8 W (8)
+            </option>
+            <option value="9 W">
+             9 W (16)
+            </option>
+            <option value="10 W">
+             10 W (17)
+            </option>
+            <option value="12 W">
+             12 W (9)
+            </option>
+            <option value="13 W">
+             13 W (6)
+            </option>
+            <option value="15 W">
+             15 W (75)
+            </option>
+            <option value="16 W">
+             16 W (1)
+            </option>
+            <option value="17 W">
+             17 W (45)
+            </option>
+            <option value="18 W">
+             18 W (10)
+            </option>
+            <option value="19 W">
+             19 W (2)
+            </option>
+            <option value="20 W">
+             20 W (1)
+            </option>
+            <option value="21 W">
+             21 W (7)
+            </option>
+            <option value="22 W">
+             22 W (4)
+            </option>
+            <option value="24 W">
+             24 W (5)
+            </option>
+            <option value="25 W">
+             25 W (52)
+            </option>
+            <option value="26 W">
+             26 W (1)
+            </option>
+            <option value="27 W">
+             27 W (11)
+            </option>
+            <option value="28 W">
+             28 W (26)
+            </option>
+            <option value="29 W">
+             29 W (5)
+            </option>
+            <option value="30 W">
+             30 W (12)
+            </option>
+            <option value="31 W">
+             31 W (9)
+            </option>
+            <option value="32 W">
+             32 W (10)
+            </option>
+            <option value="35 W">
+             35 W (276)
+            </option>
+            <option value="37 W">
+             37 W (13)
+            </option>
+            <option value="38 W">
+             38 W (5)
+            </option>
+            <option value="40 W">
+             40 W (6)
+            </option>
+            <option value="43 W">
+             43 W (1)
+            </option>
+            <option value="44 W">
+             44 W (2)
+            </option>
+            <option value="45 W">
+             45 W (124)
+            </option>
+            <option value="47 W">
+             47 W (22)
+            </option>
+            <option value="49 W">
+             49 W (1)
+            </option>
+            <option value="50 W">
+             50 W (5)
+            </option>
+            <option value="51 W">
+             51 W (28)
+            </option>
+            <option value="52 W">
+             52 W (2)
+            </option>
+            <option value="53 W">
+             53 W (1)
+            </option>
+            <option value="54 W">
+             54 W (29)
+            </option>
+            <option value="55 W">
+             55 W (35)
+            </option>
+            <option value="57 W">
+             57 W (2)
+            </option>
+            <option value="58 W">
+             58 W (7)
+            </option>
+            <option value="59 W">
+             59 W (4)
+            </option>
+            <option value="60 W">
+             60 W (19)
+            </option>
+            <option value="61 W">
+             61 W (2)
+            </option>
+            <option value="62 W">
+             62 W (67)
+            </option>
+            <option value="63 W">
+             63 W (5)
+            </option>
+            <option value="64 W">
+             64 W (3)
+            </option>
+            <option value="65 W">
+             65 W (296)
+            </option>
+            <option value="66 W">
+             66 W (6)
+            </option>
+            <option value="67 W">
+             67 W (18)
+            </option>
+            <option value="68 W">
+             68 W (22)
+            </option>
+            <option value="69 W">
+             69 W (9)
+            </option>
+            <option value="70 W">
+             70 W (10)
+            </option>
+            <option value="72 W">
+             72 W (7)
+            </option>
+            <option value="73 W">
+             73 W (25)
+            </option>
+            <option value="74 W">
+             74 W (1)
+            </option>
+            <option value="75 W">
+             75 W (2)
+            </option>
+            <option value="76 W">
+             76 W (1)
+            </option>
+            <option value="77 W">
+             77 W (13)
+            </option>
+            <option value="79 W">
+             79 W (2)
+            </option>
+            <option value="80 W">
+             80 W (53)
+            </option>
+            <option value="82 W">
+             82 W (31)
+            </option>
+            <option value="83 W">
+             83 W (3)
+            </option>
+            <option value="84 W">
+             84 W (58)
+            </option>
+            <option value="85 W">
+             85 W (30)
+            </option>
+            <option value="86 W">
+             86 W (4)
+            </option>
+            <option value="87 W">
+             87 W (2)
+            </option>
+            <option value="88 W">
+             88 W (7)
+            </option>
+            <option value="89 W">
+             89 W (65)
+            </option>
+            <option value="91 W">
+             91 W (7)
+            </option>
+            <option value="92 W">
+             92 W (9)
+            </option>
+            <option value="95 W">
+             95 W (196)
+            </option>
+            <option value="97 W">
+             97 W (4)
+            </option>
+            <option value="100 W">
+             100 W (15)
+            </option>
+            <option value="104 W">
+             104 W (7)
+            </option>
+            <option value="105 W">
+             105 W (14)
+            </option>
+            <option value="110 W">
+             110 W (21)
+            </option>
+            <option value="112 W">
+             112 W (3)
+            </option>
+            <option value="115 W">
+             115 W (32)
+            </option>
+            <option value="120 W">
+             120 W (6)
+            </option>
+            <option value="125 W">
+             125 W (60)
+            </option>
+            <option value="127 W">
+             127 W (1)
+            </option>
+            <option value="130 W">
+             130 W (78)
+            </option>
+            <option value="135 W">
+             135 W (29)
+            </option>
+            <option value="136 W">
+             136 W (1)
+            </option>
+            <option value="140 W">
+             140 W (22)
+            </option>
+            <option value="150 W">
+             150 W (16)
+            </option>
+            <option value="155 W">
+             155 W (8)
+            </option>
+            <option value="165 W">
+             165 W (27)
+            </option>
+            <option value="170 W">
+             170 W (9)
+            </option>
+            <option value="180 W">
+             180 W (18)
+            </option>
+            <option value="185 W">
+             185 W (6)
+            </option>
+            <option value="190 W">
+             190 W (2)
+            </option>
+            <option value="195 W">
+             195 W (1)
+            </option>
+            <option value="200 W">
+             200 W (7)
+            </option>
+            <option value="205 W">
+             205 W (14)
+            </option>
+            <option value="215 W">
+             215 W (3)
+            </option>
+            <option value="220 W">
+             220 W (3)
+            </option>
+            <option value="225 W">
+             225 W (13)
+            </option>
+            <option value="230 W">
+             230 W (4)
+            </option>
+            <option value="235 W">
+             235 W (1)
+            </option>
+            <option value="240 W">
+             240 W (5)
+            </option>
+            <option value="245 W">
+             245 W (2)
+            </option>
+            <option value="250 W">
+             250 W (12)
+            </option>
+            <option value="255 W">
+             255 W (2)
+            </option>
+            <option value="260 W">
+             260 W (1)
+            </option>
+            <option value="265 W">
+             265 W (1)
+            </option>
+            <option value="270 W">
+             270 W (7)
+            </option>
+            <option value="280 W">
+             280 W (11)
+            </option>
+            <option value="300 W">
+             300 W (11)
+            </option>
+            <option value="320 W">
+             320 W (1)
+            </option>
+            <option value="350 W">
+             350 W (1)
+            </option>
+            <option value="380 W">
+             380 W (1)
+            </option>
+            <option value="400 W">
+             400 W (1)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="nCores">
+            Cores
+           </label>
+           <select id="nCores" name="nCores">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="1">
+             1 (615)
+            </option>
+            <option value="2">
+             2 (721)
+            </option>
+            <option value="3">
+             3 (33)
+            </option>
+            <option value="4">
+             4 (554)
+            </option>
+            <option value="6">
+             6 (153)
+            </option>
+            <option value="8">
+             8 (132)
+            </option>
+            <option value="10">
+             10 (25)
+            </option>
+            <option value="12">
+             12 (23)
+            </option>
+            <option value="14">
+             14 (7)
+            </option>
+            <option value="16">
+             16 (44)
+            </option>
+            <option value="18">
+             18 (13)
+            </option>
+            <option value="20">
+             20 (3)
+            </option>
+            <option value="22">
+             22 (1)
+            </option>
+            <option value="24">
+             24 (28)
+            </option>
+            <option value="26">
+             26 (2)
+            </option>
+            <option value="28">
+             28 (13)
+            </option>
+            <option value="32">
+             32 (26)
+            </option>
+            <option value="36">
+             36 (3)
+            </option>
+            <option value="38">
+             38 (3)
+            </option>
+            <option value="40">
+             40 (1)
+            </option>
+            <option value="48">
+             48 (5)
+            </option>
+            <option value="56">
+             56 (2)
+            </option>
+            <option value="57">
+             57 (3)
+            </option>
+            <option value="60">
+             60 (2)
+            </option>
+            <option value="61">
+             61 (9)
+            </option>
+            <option value="64">
+             64 (14)
+            </option>
+            <option value="68">
+             68 (3)
+            </option>
+            <option value="72">
+             72 (3)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="nThreads">
+            Threads
+           </label>
+           <select id="nThreads" name="nThreads">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="1">
+             1 (517)
+            </option>
+            <option value="2">
+             2 (548)
+            </option>
+            <option value="3">
+             3 (33)
+            </option>
+            <option value="4">
+             4 (562)
+            </option>
+            <option value="6">
+             6 (40)
+            </option>
+            <option value="8">
+             8 (288)
+            </option>
+            <option value="12">
+             12 (115)
+            </option>
+            <option value="16">
+             16 (121)
+            </option>
+            <option value="20">
+             20 (25)
+            </option>
+            <option value="24">
+             24 (21)
+            </option>
+            <option value="28">
+             28 (7)
+            </option>
+            <option value="32">
+             32 (30)
+            </option>
+            <option value="36">
+             36 (13)
+            </option>
+            <option value="40">
+             40 (3)
+            </option>
+            <option value="44">
+             44 (1)
+            </option>
+            <option value="48">
+             48 (28)
+            </option>
+            <option value="52">
+             52 (2)
+            </option>
+            <option value="56">
+             56 (13)
+            </option>
+            <option value="64">
+             64 (25)
+            </option>
+            <option value="72">
+             72 (3)
+            </option>
+            <option value="76">
+             76 (3)
+            </option>
+            <option value="80">
+             80 (1)
+            </option>
+            <option value="96">
+             96 (5)
+            </option>
+            <option value="112">
+             112 (2)
+            </option>
+            <option value="128">
+             128 (10)
+            </option>
+            <option value="228">
+             228 (3)
+            </option>
+            <option value="240">
+             240 (2)
+            </option>
+            <option value="244">
+             244 (9)
+            </option>
+            <option value="256">
+             256 (5)
+            </option>
+            <option value="272">
+             272 (3)
+            </option>
+            <option value="288">
+             288 (3)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="generation">
+            Generation
+           </label>
+           <select id="generation" name="generation">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="Intel Atom">
+             Intel Atom (76)
+            </option>
+            <option value="Intel Celeron">
+             Intel Celeron (102)
+            </option>
+            <option value="Intel Pentium">
+             Intel Pentium (71)
+            </option>
+            <option value="Intel Pentium III">
+             Intel Pentium III (15)
+            </option>
+            <option value="Intel Pentium 4">
+             Intel Pentium 4 (37)
+            </option>
+            <option value="Intel Pentium 4 HT">
+             Intel Pentium 4 HT (52)
+            </option>
+            <option value="Intel Pentium 4-M">
+             Intel Pentium 4-M (11)
+            </option>
+            <option value="Intel Mobile Pentium 4">
+             Intel Mobile Pentium 4 (4)
+            </option>
+            <option value="Intel Mobile Pentium 4 HT">
+             Intel Mobile Pentium 4 HT (9)
+            </option>
+            <option value="Intel Celeron D">
+             Intel Celeron D (10)
+            </option>
+            <option value="Intel Pentium M">
+             Intel Pentium M (17)
+            </option>
+            <option value="Intel Pentium D">
+             Intel Pentium D (16)
+            </option>
+            <option value="Intel Pentium Dual-Core">
+             Intel Pentium Dual-Core (24)
+            </option>
+            <option value="Intel Core Solo">
+             Intel Core Solo (7)
+            </option>
+            <option value="Intel Core Duo">
+             Intel Core Duo (12)
+            </option>
+            <option value="Intel Core 2 Duo">
+             Intel Core 2 Duo (44)
+            </option>
+            <option value="Intel Core 2 Extreme">
+             Intel Core 2 Extreme (10)
+            </option>
+            <option value="Intel Core 2 Solo">
+             Intel Core 2 Solo (4)
+            </option>
+            <option value="Intel Core 2 Quad">
+             Intel Core 2 Quad (17)
+            </option>
+            <option value="Intel Core i3">
+             Intel Core i3 (125)
+            </option>
+            <option value="Intel Core i5">
+             Intel Core i5 (195)
+            </option>
+            <option value="Intel Core i7">
+             Intel Core i7 (210)
+            </option>
+            <option value="Intel Core M">
+             Intel Core M (7)
+            </option>
+            <option value="Intel Core m3">
+             Intel Core m3 (1)
+            </option>
+            <option value="Intel Core i9">
+             Intel Core i9 (34)
+            </option>
+            <option value="Intel Core i9 Extreme">
+             Intel Core i9 Extreme (8)
+            </option>
+            <option value="Intel Pentium Silver">
+             Intel Pentium Silver (1)
+            </option>
+            <option value="Intel Pentium Gold">
+             Intel Pentium Gold (12)
+            </option>
+            <option value="Intel Core i7 40th">
+             Intel Core i7 40th (1)
+            </option>
+            <option value="Intel Xeon">
+             Intel Xeon (108)
+            </option>
+            <option value="AMD Athlon Model 4">
+             AMD Athlon Model 4 (18)
+            </option>
+            <option value="AMD Athlon XP">
+             AMD Athlon XP (49)
+            </option>
+            <option value="AMD Sempron">
+             AMD Sempron (51)
+            </option>
+            <option value="AMD Mobile Sempron">
+             AMD Mobile Sempron (23)
+            </option>
+            <option value="AMD Athlon 64">
+             AMD Athlon 64 (80)
+            </option>
+            <option value="AMD Athlon 64 FX">
+             AMD Athlon 64 FX (10)
+            </option>
+            <option value="AMD Mobile Athlon 64">
+             AMD Mobile Athlon 64 (15)
+            </option>
+            <option value="AMD Athlon 64 X2">
+             AMD Athlon 64 X2 (53)
+            </option>
+            <option value="AMD Turion 64">
+             AMD Turion 64 (14)
+            </option>
+            <option value="AMD Sempron X2">
+             AMD Sempron X2 (4)
+            </option>
+            <option value="AMD Athlon X2">
+             AMD Athlon X2 (10)
+            </option>
+            <option value="AMD Phenom X3">
+             AMD Phenom X3 (10)
+            </option>
+            <option value="AMD Phenom X4">
+             AMD Phenom X4 (19)
+            </option>
+            <option value="AMD Athlon II X2">
+             AMD Athlon II X2 (18)
+            </option>
+            <option value="AMD Phenom II X2">
+             AMD Phenom II X2 (10)
+            </option>
+            <option value="AMD Athlon II X3">
+             AMD Athlon II X3 (12)
+            </option>
+            <option value="AMD Phenom II X3">
+             AMD Phenom II X3 (10)
+            </option>
+            <option value="AMD Athlon II X4">
+             AMD Athlon II X4 (15)
+            </option>
+            <option value="AMD Phenom II X4">
+             AMD Phenom II X4 (31)
+            </option>
+            <option value="AMD Phenom II X6">
+             AMD Phenom II X6 (8)
+            </option>
+            <option value="AMD Turion X2 Ultra">
+             AMD Turion X2 Ultra (7)
+            </option>
+            <option value="AMD Turion X2">
+             AMD Turion X2 (5)
+            </option>
+            <option value="AMD C">
+             AMD C (4)
+            </option>
+            <option value="AMD Z">
+             AMD Z (2)
+            </option>
+            <option value="AMD E1">
+             AMD E1 (5)
+            </option>
+            <option value="AMD E2">
+             AMD E2 (5)
+            </option>
+            <option value="AMD A4">
+             AMD A4 (22)
+            </option>
+            <option value="AMD A6">
+             AMD A6 (23)
+            </option>
+            <option value="AMD A8">
+             AMD A8 (21)
+            </option>
+            <option value="AMD E">
+             AMD E (4)
+            </option>
+            <option value="AMD A9">
+             AMD A9 (4)
+            </option>
+            <option value="AMD A10">
+             AMD A10 (18)
+            </option>
+            <option value="AMD FX">
+             AMD FX (28)
+            </option>
+            <option value="AMD Athlon">
+             AMD Athlon (18)
+            </option>
+            <option value="AMD A12">
+             AMD A12 (2)
+            </option>
+            <option value="AMD Ryzen 3">
+             AMD Ryzen 3 (24)
+            </option>
+            <option value="AMD Ryzen 5">
+             AMD Ryzen 5 (37)
+            </option>
+            <option value="AMD Ryzen 7">
+             AMD Ryzen 7 (34)
+            </option>
+            <option value="AMD Ryzen Threadripper">
+             AMD Ryzen Threadripper (20)
+            </option>
+            <option value="AMD Ryzen Embedded">
+             AMD Ryzen Embedded (4)
+            </option>
+            <option value="AMD Ryzen 9">
+             AMD Ryzen 9 (9)
+            </option>
+            <option value="AMD Opteron">
+             AMD Opteron (115)
+            </option>
+            <option value="AMD Opteron X2">
+             AMD Opteron X2 (25)
+            </option>
+            <option value="AMD EPYC">
+             AMD EPYC (56)
+            </option>
+            <option value="AMD EPYC Embedded">
+             AMD EPYC Embedded (1)
+            </option>
+            <option value="Intel Xeon MP">
+             Intel Xeon MP (16)
+            </option>
+            <option value="Intel Xeon E7">
+             Intel Xeon E7 (15)
+            </option>
+            <option value="Intel Xeon E3">
+             Intel Xeon E3 (41)
+            </option>
+            <option value="Intel Xeon E5">
+             Intel Xeon E5 (73)
+            </option>
+            <option value="Intel Xeon W">
+             Intel Xeon W (7)
+            </option>
+            <option value="Intel Xeon Bronze">
+             Intel Xeon Bronze (1)
+            </option>
+            <option value="Intel Xeon Silver">
+             Intel Xeon Silver (6)
+            </option>
+            <option value="Intel Xeon Gold">
+             Intel Xeon Gold (26)
+            </option>
+            <option value="Intel Xeon Platinum">
+             Intel Xeon Platinum (35)
+            </option>
+            <option value="Intel Xeon E">
+             Intel Xeon E (2)
+            </option>
+            <option value="Intel Xeon Phi">
+             Intel Xeon Phi (26)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="socket">
+            Socket
+           </label>
+           <select id="socket" name="socket">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="AMD BGA SP4r2">
+             AMD BGA SP4r2 (1)
+            </option>
+            <option value="AMD Socket 754">
+             AMD Socket 754 (88)
+            </option>
+            <option value="AMD Socket 939">
+             AMD Socket 939 (59)
+            </option>
+            <option value="AMD Socket 940">
+             AMD Socket 940 (92)
+            </option>
+            <option value="AMD Socket A">
+             AMD Socket A (84)
+            </option>
+            <option value="AMD Socket AM2">
+             AMD Socket AM2 (93)
+            </option>
+            <option value="AMD Socket AM2+">
+             AMD Socket AM2+ (35)
+            </option>
+            <option value="AMD Socket AM3">
+             AMD Socket AM3 (103)
+            </option>
+            <option value="AMD Socket AM3+">
+             AMD Socket AM3+ (31)
+            </option>
+            <option value="AMD Socket AM4">
+             AMD Socket AM4 (88)
+            </option>
+            <option value="AMD Socket C32">
+             AMD Socket C32 (8)
+            </option>
+            <option value="AMD Socket F">
+             AMD Socket F (4)
+            </option>
+            <option value="AMD Socket FM1">
+             AMD Socket FM1 (18)
+            </option>
+            <option value="AMD Socket FM2">
+             AMD Socket FM2 (19)
+            </option>
+            <option value="AMD Socket FM2+">
+             AMD Socket FM2+ (5)
+            </option>
+            <option value="AMD Socket FP2">
+             AMD Socket FP2 (11)
+            </option>
+            <option value="AMD Socket FP4">
+             AMD Socket FP4 (1)
+            </option>
+            <option value="AMD Socket FP5">
+             AMD Socket FP5 (27)
+            </option>
+            <option value="AMD Socket FP6">
+             AMD Socket FP6 (19)
+            </option>
+            <option value="AMD Socket FS1">
+             AMD Socket FS1 (15)
+            </option>
+            <option value="AMD Socket FS1r2">
+             AMD Socket FS1r2 (8)
+            </option>
+            <option value="AMD Socket FT1">
+             AMD Socket FT1 (14)
+            </option>
+            <option value="AMD Socket FT3">
+             AMD Socket FT3 (14)
+            </option>
+            <option value="AMD Socket FT4">
+             AMD Socket FT4 (5)
+            </option>
+            <option value="AMD Socket Fr2">
+             AMD Socket Fr2 (1)
+            </option>
+            <option value="AMD Socket G34">
+             AMD Socket G34 (14)
+            </option>
+            <option value="AMD Socket S1">
+             AMD Socket S1 (17)
+            </option>
+            <option value="AMD Socket SP1">
+             AMD Socket SP1 (3)
+            </option>
+            <option value="AMD Socket SP3">
+             AMD Socket SP3 (56)
+            </option>
+            <option value="AMD Socket SP3r2">
+             AMD Socket SP3r2 (12)
+            </option>
+            <option value="AMD Socket TRX4">
+             AMD Socket TRX4 (4)
+            </option>
+            <option value="AMD Socket WRX8">
+             AMD Socket WRX8 (4)
+            </option>
+            <option value="Intel BGA 437">
+             Intel BGA 437 (17)
+            </option>
+            <option value="Intel BGA 441">
+             Intel BGA 441 (8)
+            </option>
+            <option value="Intel BGA 518">
+             Intel BGA 518 (9)
+            </option>
+            <option value="Intel BGA 559">
+             Intel BGA 559 (8)
+            </option>
+            <option value="Intel BGA 617">
+             Intel BGA 617 (7)
+            </option>
+            <option value="Intel BGA 676">
+             Intel BGA 676 (8)
+            </option>
+            <option value="Intel BGA 951">
+             Intel BGA 951 (3)
+            </option>
+            <option value="Intel BGA 956">
+             Intel BGA 956 (6)
+            </option>
+            <option value="Intel BGA 1023">
+             Intel BGA 1023 (75)
+            </option>
+            <option value="Intel BGA 1090">
+             Intel BGA 1090 (1)
+            </option>
+            <option value="Intel BGA 1168">
+             Intel BGA 1168 (37)
+            </option>
+            <option value="Intel BGA 1170">
+             Intel BGA 1170 (17)
+            </option>
+            <option value="Intel BGA 1224">
+             Intel BGA 1224 (14)
+            </option>
+            <option value="Intel BGA 1234">
+             Intel BGA 1234 (7)
+            </option>
+            <option value="Intel BGA 1283">
+             Intel BGA 1283 (5)
+            </option>
+            <option value="Intel BGA 1288">
+             Intel BGA 1288 (4)
+            </option>
+            <option value="Intel BGA 1356">
+             Intel BGA 1356 (9)
+            </option>
+            <option value="Intel BGA 1364">
+             Intel BGA 1364 (22)
+            </option>
+            <option value="Intel BGA 1380">
+             Intel BGA 1380 (2)
+            </option>
+            <option value="Intel BGA 1440">
+             Intel BGA 1440 (49)
+            </option>
+            <option value="Intel BGA 1449">
+             Intel BGA 1449 (8)
+            </option>
+            <option value="Intel BGA 1466">
+             Intel BGA 1466 (6)
+            </option>
+            <option value="Intel BGA 1499">
+             Intel BGA 1499 (11)
+            </option>
+            <option value="Intel BGA 1598">
+             Intel BGA 1598 (4)
+            </option>
+            <option value="Intel BGA 2270">
+             Intel BGA 2270 (5)
+            </option>
+            <option value="Intel BGA 5903">
+             Intel BGA 5903 (4)
+            </option>
+            <option value="Intel Socket 370">
+             Intel Socket 370 (15)
+            </option>
+            <option value="Intel Socket 423">
+             Intel Socket 423 (7)
+            </option>
+            <option value="Intel Socket 478">
+             Intel Socket 478 (74)
+            </option>
+            <option value="Intel Socket 479">
+             Intel Socket 479 (38)
+            </option>
+            <option value="Intel Socket 604">
+             Intel Socket 604 (36)
+            </option>
+            <option value="Intel Socket 771">
+             Intel Socket 771 (23)
+            </option>
+            <option value="Intel Socket 775">
+             Intel Socket 775 (149)
+            </option>
+            <option value="Intel Socket 1150">
+             Intel Socket 1150 (85)
+            </option>
+            <option value="Intel Socket 1151">
+             Intel Socket 1151 (103)
+            </option>
+            <option value="Intel Socket 1155">
+             Intel Socket 1155 (113)
+            </option>
+            <option value="Intel Socket 1156">
+             Intel Socket 1156 (23)
+            </option>
+            <option value="Intel Socket 1200">
+             Intel Socket 1200 (65)
+            </option>
+            <option value="Intel Socket 1356">
+             Intel Socket 1356 (21)
+            </option>
+            <option value="Intel Socket 1366">
+             Intel Socket 1366 (67)
+            </option>
+            <option value="Intel Socket 1567">
+             Intel Socket 1567 (3)
+            </option>
+            <option value="Intel Socket 1700">
+             Intel Socket 1700 (6)
+            </option>
+            <option value="Intel Socket 2011">
+             Intel Socket 2011 (61)
+            </option>
+            <option value="Intel Socket 2011-3">
+             Intel Socket 2011-3 (7)
+            </option>
+            <option value="Intel Socket 2066">
+             Intel Socket 2066 (24)
+            </option>
+            <option value="Intel Socket 3647">
+             Intel Socket 3647 (26)
+            </option>
+            <option value="Intel Socket 4189">
+             Intel Socket 4189 (55)
+            </option>
+            <option value="Intel Socket G1">
+             Intel Socket G1 (17)
+            </option>
+            <option value="Intel Socket G2 (988B)">
+             Intel Socket G2 (988B) (69)
+            </option>
+            <option value="Intel Socket G3">
+             Intel Socket G3 (19)
+            </option>
+            <option value="Intel Socket M">
+             Intel Socket M (5)
+            </option>
+            <option value="Intel Socket P">
+             Intel Socket P (16)
+            </option>
+            <option value="PCIe x16">
+             PCIe x16 (13)
+            </option>
+            <option value="SFF 230-Pin">
+             SFF 230-Pin (2)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="codename">
+            Codename
+           </label>
+           <select id="codename" name="codename">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="Abu Dhabi">
+             Abu Dhabi (6)
+            </option>
+            <option value="Agena">
+             Agena (19)
+            </option>
+            <option value="Albany">
+             Albany (5)
+            </option>
+            <option value="Alder Lake">
+             Alder Lake (6)
+            </option>
+            <option value="Allendale">
+             Allendale (14)
+            </option>
+            <option value="Arrandale">
+             Arrandale (21)
+            </option>
+            <option value="Athens">
+             Athens (12)
+            </option>
+            <option value="Banias">
+             Banias (5)
+            </option>
+            <option value="Barcelona">
+             Barcelona (1)
+            </option>
+            <option value="Barton">
+             Barton (23)
+            </option>
+            <option value="Bay Trail-I">
+             Bay Trail-I (5)
+            </option>
+            <option value="Bay Trail-M">
+             Bay Trail-M (12)
+            </option>
+            <option value="Bay Trail-T">
+             Bay Trail-T (2)
+            </option>
+            <option value="Bloomfield">
+             Bloomfield (16)
+            </option>
+            <option value="Brisbane">
+             Brisbane (25)
+            </option>
+            <option value="Bristol Ridge">
+             Bristol Ridge (11)
+            </option>
+            <option value="Broadwell">
+             Broadwell (2)
+            </option>
+            <option value="Broadwell-DT">
+             Broadwell-DT (1)
+            </option>
+            <option value="Broadwell-E">
+             Broadwell-E (4)
+            </option>
+            <option value="Broadwell-U">
+             Broadwell-U (17)
+            </option>
+            <option value="Broadwell-Y">
+             Broadwell-Y (7)
+            </option>
+            <option value="Callisto">
+             Callisto (10)
+            </option>
+            <option value="Cannon Lake-Y">
+             Cannon Lake-Y (1)
+            </option>
+            <option value="Cascade Lake-AP">
+             Cascade Lake-AP (4)
+            </option>
+            <option value="Cascade Lake-SP">
+             Cascade Lake-SP (9)
+            </option>
+            <option value="Cascade Lake-X">
+             Cascade Lake-X (5)
+            </option>
+            <option value="Cedar Mill">
+             Cedar Mill (5)
+            </option>
+            <option value="Cedarview">
+             Cedarview (5)
+            </option>
+            <option value="Centerton">
+             Centerton (3)
+            </option>
+            <option value="Cezanne">
+             Cezanne (7)
+            </option>
+            <option value="Clarkdale">
+             Clarkdale (14)
+            </option>
+            <option value="Clawhammer">
+             Clawhammer (24)
+            </option>
+            <option value="Clovertrail">
+             Clovertrail (3)
+            </option>
+            <option value="Cloverview">
+             Cloverview (1)
+            </option>
+            <option value="Coffee Lake">
+             Coffee Lake (52)
+            </option>
+            <option value="Coffee Lake-H">
+             Coffee Lake-H (5)
+            </option>
+            <option value="Coffee Lake-HR">
+             Coffee Lake-HR (7)
+            </option>
+            <option value="Coffee Lake-R">
+             Coffee Lake-R (4)
+            </option>
+            <option value="Coffee Lake-S">
+             Coffee Lake-S (2)
+            </option>
+            <option value="Coffee Lake-U">
+             Coffee Lake-U (2)
+            </option>
+            <option value="Comet Lake">
+             Comet Lake (25)
+            </option>
+            <option value="Comet Lake-H">
+             Comet Lake-H (9)
+            </option>
+            <option value="Comet Lake-R">
+             Comet Lake-R (11)
+            </option>
+            <option value="Comet Lake-U">
+             Comet Lake-U (6)
+            </option>
+            <option value="Comet Lake-Y">
+             Comet Lake-Y (4)
+            </option>
+            <option value="Conroe">
+             Conroe (9)
+            </option>
+            <option value="Conroe XE">
+             Conroe XE (1)
+            </option>
+            <option value="Conroe-CL">
+             Conroe-CL (1)
+            </option>
+            <option value="Conroe-L">
+             Conroe-L (5)
+            </option>
+            <option value="Cooper Lake-SP">
+             Cooper Lake-SP (15)
+            </option>
+            <option value="Coppermine">
+             Coppermine (1)
+            </option>
+            <option value="Coppermine T">
+             Coppermine T (5)
+            </option>
+            <option value="Cranford">
+             Cranford (4)
+            </option>
+            <option value="Crystalwell">
+             Crystalwell (16)
+            </option>
+            <option value="Dali">
+             Dali (6)
+            </option>
+            <option value="Delhi">
+             Delhi (3)
+            </option>
+            <option value="Dempsey">
+             Dempsey (6)
+            </option>
+            <option value="Deneb">
+             Deneb (25)
+            </option>
+            <option value="Denmark">
+             Denmark (5)
+            </option>
+            <option value="Desna">
+             Desna (1)
+            </option>
+            <option value="Diamondville">
+             Diamondville (4)
+            </option>
+            <option value="Dothan">
+             Dothan (12)
+            </option>
+            <option value="Egypt">
+             Egypt (10)
+            </option>
+            <option value="Gainestown">
+             Gainestown (18)
+            </option>
+            <option value="Gallatin">
+             Gallatin (8)
+            </option>
+            <option value="Georgetown">
+             Georgetown (5)
+            </option>
+            <option value="Gladden">
+             Gladden (2)
+            </option>
+            <option value="Godaveri">
+             Godaveri (5)
+            </option>
+            <option value="Griffin">
+             Griffin (17)
+            </option>
+            <option value="Gulftown">
+             Gulftown (7)
+            </option>
+            <option value="Haswell">
+             Haswell (100)
+            </option>
+            <option value="Haswell-E">
+             Haswell-E (3)
+            </option>
+            <option value="Haswell-EX">
+             Haswell-EX (12)
+            </option>
+            <option value="Haswell-ULT">
+             Haswell-ULT (5)
+            </option>
+            <option value="Haswell-WS">
+             Haswell-WS (13)
+            </option>
+            <option value="Heka">
+             Heka (10)
+            </option>
+            <option value="Hondo">
+             Hondo (1)
+            </option>
+            <option value="Ice Lake-SP">
+             Ice Lake-SP (35)
+            </option>
+            <option value="Ice Lake-U">
+             Ice Lake-U (6)
+            </option>
+            <option value="Ice Lake-W">
+             Ice Lake-W (5)
+            </option>
+            <option value="Ice Lake-Y">
+             Ice Lake-Y (5)
+            </option>
+            <option value="Interlagos">
+             Interlagos (7)
+            </option>
+            <option value="Irwindale">
+             Irwindale (4)
+            </option>
+            <option value="Italy">
+             Italy (10)
+            </option>
+            <option value="Ivy Bridge">
+             Ivy Bridge (125)
+            </option>
+            <option value="Ivy Bridge-E">
+             Ivy Bridge-E (6)
+            </option>
+            <option value="Ivy Bridge-EN">
+             Ivy Bridge-EN (7)
+            </option>
+            <option value="Ivy Bridge-EP">
+             Ivy Bridge-EP (19)
+            </option>
+            <option value="Jasper Forest">
+             Jasper Forest (1)
+            </option>
+            <option value="Kabini">
+             Kabini (8)
+            </option>
+            <option value="Kaby Lake">
+             Kaby Lake (29)
+            </option>
+            <option value="Kaby Lake G">
+             Kaby Lake G (5)
+            </option>
+            <option value="Kaby Lake-DT">
+             Kaby Lake-DT (1)
+            </option>
+            <option value="Kaby Lake-H">
+             Kaby Lake-H (1)
+            </option>
+            <option value="Kaby Lake-R">
+             Kaby Lake-R (8)
+            </option>
+            <option value="Kaby Lake-X">
+             Kaby Lake-X (2)
+            </option>
+            <option value="Kentsfield">
+             Kentsfield (6)
+            </option>
+            <option value="Knights Corner">
+             Knights Corner (14)
+            </option>
+            <option value="Knights Ferry">
+             Knights Ferry (1)
+            </option>
+            <option value="Knights Landing">
+             Knights Landing (8)
+            </option>
+            <option value="Knights Mill">
+             Knights Mill (3)
+            </option>
+            <option value="Kuma">
+             Kuma (5)
+            </option>
+            <option value="Kyoto">
+             Kyoto (2)
+            </option>
+            <option value="Lancaster">
+             Lancaster (14)
+            </option>
+            <option value="Lima">
+             Lima (11)
+            </option>
+            <option value="Lincroft">
+             Lincroft (9)
+            </option>
+            <option value="Llano">
+             Llano (33)
+            </option>
+            <option value="Lucienne">
+             Lucienne (1)
+            </option>
+            <option value="Lynnfield">
+             Lynnfield (9)
+            </option>
+            <option value="Magny-Cours">
+             Magny-Cours (1)
+            </option>
+            <option value="Manchester">
+             Manchester (6)
+            </option>
+            <option value="Manila">
+             Manila (11)
+            </option>
+            <option value="Matisse">
+             Matisse (17)
+            </option>
+            <option value="Matisse 2">
+             Matisse 2 (3)
+            </option>
+            <option value="Merom">
+             Merom (19)
+            </option>
+            <option value="Merom XE">
+             Merom XE (1)
+            </option>
+            <option value="Merom-L">
+             Merom-L (2)
+            </option>
+            <option value="Milan">
+             Milan (19)
+            </option>
+            <option value="Naples">
+             Naples (14)
+            </option>
+            <option value="NewCastle">
+             NewCastle (13)
+            </option>
+            <option value="Newark">
+             Newark (6)
+            </option>
+            <option value="Nocona">
+             Nocona (5)
+            </option>
+            <option value="Northwood">
+             Northwood (45)
+            </option>
+            <option value="Odessa">
+             Odessa (4)
+            </option>
+            <option value="Ontario">
+             Ontario (4)
+            </option>
+            <option value="Orleans">
+             Orleans (11)
+            </option>
+            <option value="Palermo">
+             Palermo (11)
+            </option>
+            <option value="Palomino">
+             Palomino (7)
+            </option>
+            <option value="Paris">
+             Paris (6)
+            </option>
+            <option value="Paxville">
+             Paxville (6)
+            </option>
+            <option value="Penryn">
+             Penryn (6)
+            </option>
+            <option value="Penryn QC">
+             Penryn QC (1)
+            </option>
+            <option value="Penryn QC XE">
+             Penryn QC XE (1)
+            </option>
+            <option value="Penryn XE">
+             Penryn XE (1)
+            </option>
+            <option value="Penryn-L">
+             Penryn-L (2)
+            </option>
+            <option value="Penwell">
+             Penwell (3)
+            </option>
+            <option value="Picasso">
+             Picasso (14)
+            </option>
+            <option value="Pineview">
+             Pineview (10)
+            </option>
+            <option value="Potomac">
+             Potomac (8)
+            </option>
+            <option value="Prescott">
+             Prescott (63)
+            </option>
+            <option value="Presler">
+             Presler (11)
+            </option>
+            <option value="Prestonia">
+             Prestonia (5)
+            </option>
+            <option value="Propus">
+             Propus (12)
+            </option>
+            <option value="Rana">
+             Rana (12)
+            </option>
+            <option value="Raven Ridge">
+             Raven Ridge (12)
+            </option>
+            <option value="Raven Ridge 2">
+             Raven Ridge 2 (2)
+            </option>
+            <option value="Regor">
+             Regor (19)
+            </option>
+            <option value="Renoir">
+             Renoir (26)
+            </option>
+            <option value="Richland">
+             Richland (20)
+            </option>
+            <option value="Rocket Lake">
+             Rocket Lake (19)
+            </option>
+            <option value="Rocket Lake-E">
+             Rocket Lake-E (10)
+            </option>
+            <option value="Roma">
+             Roma (5)
+            </option>
+            <option value="Rome">
+             Rome (23)
+            </option>
+            <option value="San Diego">
+             San Diego (5)
+            </option>
+            <option value="Sandy Bridge">
+             Sandy Bridge (144)
+            </option>
+            <option value="Sandy Bridge-E">
+             Sandy Bridge-E (8)
+            </option>
+            <option value="Sandy Bridge-EN">
+             Sandy Bridge-EN (14)
+            </option>
+            <option value="Sandy Bridge-EP">
+             Sandy Bridge-EP (27)
+            </option>
+            <option value="Sargas">
+             Sargas (4)
+            </option>
+            <option value="Seattle">
+             Seattle (3)
+            </option>
+            <option value="Seoul">
+             Seoul (8)
+            </option>
+            <option value="Silverthorne">
+             Silverthorne (12)
+            </option>
+            <option value="Skylake">
+             Skylake (16)
+            </option>
+            <option value="Skylake-H">
+             Skylake-H (1)
+            </option>
+            <option value="Skylake-S">
+             Skylake-S (1)
+            </option>
+            <option value="Skylake-SP">
+             Skylake-SP (5)
+            </option>
+            <option value="Skylake-W">
+             Skylake-W (2)
+            </option>
+            <option value="Skylake-X">
+             Skylake-X (15)
+            </option>
+            <option value="SledgeHammer">
+             SledgeHammer (47)
+            </option>
+            <option value="Smithfield">
+             Smithfield (5)
+            </option>
+            <option value="Sodaville">
+             Sodaville (3)
+            </option>
+            <option value="Sonora">
+             Sonora (4)
+            </option>
+            <option value="Sparta">
+             Sparta (5)
+            </option>
+            <option value="Stealey">
+             Stealey (2)
+            </option>
+            <option value="Stellarton">
+             Stellarton (6)
+            </option>
+            <option value="Steppe Eagle">
+             Steppe Eagle (1)
+            </option>
+            <option value="Stoney Ridge">
+             Stoney Ridge (6)
+            </option>
+            <option value="Temash">
+             Temash (3)
+            </option>
+            <option value="Thoroughbred">
+             Thoroughbred (24)
+            </option>
+            <option value="Thorton">
+             Thorton (12)
+            </option>
+            <option value="Thuban">
+             Thuban (8)
+            </option>
+            <option value="Thunderbird">
+             Thunderbird (8)
+            </option>
+            <option value="Thunderbird B">
+             Thunderbird B (5)
+            </option>
+            <option value="Thunderbird C">
+             Thunderbird C (5)
+            </option>
+            <option value="Tiger Lake-H">
+             Tiger Lake-H (11)
+            </option>
+            <option value="Tiger Lake-U">
+             Tiger Lake-U (12)
+            </option>
+            <option value="Toledo">
+             Toledo (8)
+            </option>
+            <option value="Toliman">
+             Toliman (10)
+            </option>
+            <option value="Trinity">
+             Trinity (18)
+            </option>
+            <option value="Troy">
+             Troy (12)
+            </option>
+            <option value="Tualatin">
+             Tualatin (9)
+            </option>
+            <option value="Tulsa">
+             Tulsa (8)
+            </option>
+            <option value="Tunnel Creek">
+             Tunnel Creek (8)
+            </option>
+            <option value="Venice">
+             Venice (10)
+            </option>
+            <option value="Venus">
+             Venus (14)
+            </option>
+            <option value="Vermeer">
+             Vermeer (4)
+            </option>
+            <option value="Vishera">
+             Vishera (15)
+            </option>
+            <option value="Westmere-EP">
+             Westmere-EP (25)
+            </option>
+            <option value="Westmere-EX">
+             Westmere-EX (3)
+            </option>
+            <option value="Whiskey Lake-U">
+             Whiskey Lake-U (3)
+            </option>
+            <option value="Willamette">
+             Willamette (15)
+            </option>
+            <option value="Winchester">
+             Winchester (3)
+            </option>
+            <option value="Windsor">
+             Windsor (34)
+            </option>
+            <option value="Wolfdale">
+             Wolfdale (28)
+            </option>
+            <option value="Woodcrest">
+             Woodcrest (7)
+            </option>
+            <option value="Yonah">
+             Yonah (19)
+            </option>
+            <option value="Yorkfield">
+             Yorkfield (16)
+            </option>
+            <option value="Zacate">
+             Zacate (8)
+            </option>
+            <option value="Zambezi">
+             Zambezi (13)
+            </option>
+            <option value="Zen">
+             Zen (52)
+            </option>
+            <option value="Zosma">
+             Zosma (4)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="process">
+            Process
+           </label>
+           <select id="process" name="process">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="7 nm">
+             7 nm (100)
+            </option>
+            <option value="10 nm">
+             10 nm (83)
+            </option>
+            <option value="12 nm">
+             12 nm (35)
+            </option>
+            <option value="14 nm">
+             14 nm (383)
+            </option>
+            <option value="22 nm">
+             22 nm (339)
+            </option>
+            <option value="28 nm">
+             28 nm (28)
+            </option>
+            <option value="32 nm">
+             32 nm (414)
+            </option>
+            <option value="40 nm">
+             40 nm (14)
+            </option>
+            <option value="45 nm">
+             45 nm (257)
+            </option>
+            <option value="65 nm">
+             65 nm (207)
+            </option>
+            <option value="90 nm">
+             90 nm (304)
+            </option>
+            <option value="130 nm">
+             130 nm (231)
+            </option>
+            <option value="180 nm">
+             180 nm (46)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="multiUnlocked">
+            Multiplier Unlocked
+           </label>
+           <select id="multiUnlocked" name="multiUnlocked">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="No">
+             No (2110)
+            </option>
+            <option value="Yes">
+             Yes (331)
+            </option>
+           </select>
+          </li>
+          <li>
+           <label for="igp">
+            Integrated Graphics
+           </label>
+           <select id="igp" name="igp">
+            <option selected="" value="">
+             All
+            </option>
+            <option value="No">
+             No (1574)
+            </option>
+            <option value="Yes">
+             Yes (867)
+            </option>
+           </select>
+          </li>
+         </ul>
+        </fieldset>
+        <fieldset class="sort" style="display:none">
+         <legend>
+          Sort by:
+         </legend>
+         <select name="sort">
+          <option selected="" value="name">
+           Name
+          </option>
+          <option value="released">
+           Released
+          </option>
+          <option value="generation">
+           Generation
+          </option>
+         </select>
+        </fieldset>
+        <script>
+         function formAjax(data) {
+					$('#list').html('Loading...');
+					$.ajax({
+						url:$('#form').attr('action'),
+						type: 'get',
+						data: data,
+						dataType: 'json',
+					}).done(function(data) {
+						$('#list').html(data.list);
+						$('.filters').replaceWith(data.filters);
+					});
+				}
+
+				function showHideSortField() {
+					var nothingSelected=$('#form').find('.filters select').filter(function(){ return this.value!=''; }).length==0;
+
+					if (nothingSelected)
+						$('.sort').hide();
+					else
+						$('.sort').show();
+				}
+
+				loadjs.ready(['jquery'], function() {
+					showHideSortField();
+
+					window.onpopstate = function (e) {
+						if (e.state==null)
+							window.location='/cpu-specs/';
+						formAjax(e.state);
+					};
+
+					$('.search').on('change', 'select', function() {
+						$('#form').submit();
+					});
+
+					$('#form').on('submit', function() {
+						showHideSortField();
+
+						var fields=$(this).find('.search select').filter(function(){ return this.value!=''; });
+
+						var formData=fields.serializeArray()
+						formData.push({ name: 'ajax', value: 1 });
+						formAjax(formData);
+
+						if (typeof window.history != 'undefined') {
+							var query=fields.serialize();
+							if (query!='')
+								query='?'+query;
+							history.pushState(formData, null, '/cpu-specs/'+query);
+						}
+
+						return false;
+					});
+				});
+        </script>
+        <fieldset class="actions">
+         <noscript>
+          <input class="button primary" type="submit" value="Search"/>
+         </noscript>
+         <a class="resetfilter" href="/cpu-specs/">
+          Reset Filter
+         </a>
+         <div class="ajax jsonly">
+          <input autocomplete="off" id="quicksearch" name="q" placeholder="or type to Search..." type="text">
+           <script>
+            loadjs.ready(['jquery', 'highlight'], function() {
+							var req=null;
+							$('#quicksearch').on('input', function() {
+								if (req) { req.abort(); req=null; }
+								val=$('#quicksearch').val();
+
+								if (val=='') {
+									$('.search').removeClass('qsearch-active');
+									$('#ajaxresults').hide();
+									$('#list').show();
+								} else {
+									$('.search').addClass('qsearch-active');
+									$('#list').hide();
+									req=$.ajax({
+										url: '/cpu-specs/?ajaxsrch='+val,
+										cache: false,
+										beforeSend: function() { $('#ajaxresults').show().html('<div class="ajax-loader" />'); },
+										success: function(data) {
+											$('#ajaxresults').show().html(data);
+											$('#ajaxresults a').highlight(val.split(' '));
+											if ($('#ajaxresults .highlight').length==0)
+												$('#ajaxresults td').highlight(val);
+											$('#ajaxresults a').on('click', function() {
+												location.hash='#'+val;
+											});
+										}
+									});
+								}
+							});
+							var hash=location.hash.slice(1);
+							if (hash!='') {
+								$('#quicksearch').val(hash).trigger('input').focus().select();
+							}
+						});
+           </script>
+          </input>
+         </div>
+        </fieldset>
+       </div>
+      </section>
+     </form>
+     <div class="table-wrapper" id="list">
+      <table class="processors">
+       <thead>
+        <tr>
+         <th class="mfgr" colspan="10" id="Popular">
+          Popular
+         </th>
+        </tr>
+       </thead>
+       <thead class="colheader">
+        <tr>
+         <th>
+          Name
+         </th>
+         <th>
+          Codename
+         </th>
+         <th>
+          Cores
+         </th>
+         <th>
+          Clock
+         </th>
+         <th>
+          Socket
+         </th>
+         <th>
+          Process
+         </th>
+         <th>
+          L3 Cache
+         </th>
+         <th>
+          TDP
+         </th>
+         <th>
+          Released
+         </th>
+        </tr>
+       </thead>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-3600.c2132">
+          Ryzen 5 3600
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.6 to 4.2 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-5600x.c2365">
+          Ryzen 5 5600X
+         </a>
+        </td>
+        <td>
+         Vermeer
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.7 to 4.6 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Nov 5th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i9-12900k.c2505">
+          Core i9-12900K
+         </a>
+        </td>
+        <td>
+         Alder Lake
+        </td>
+        <td>
+         16  / 24
+        </td>
+        <td>
+         3.2 to 5.2 GHz
+        </td>
+        <td>
+         Socket 1700
+        </td>
+        <td>
+         10 nm
+        </td>
+        <td>
+         30MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Nov 4th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-5600g.c2471">
+          Ryzen 5 5600G
+         </a>
+        </td>
+        <td>
+         Cezanne
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.9 to 4.4 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 13th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-10400f.c2270">
+          Core i5-10400F
+         </a>
+        </td>
+        <td>
+         Comet Lake
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         2.9 to 4.3 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         12MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 30th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-7-5700g.c2472">
+          Ryzen 7 5700G
+         </a>
+        </td>
+        <td>
+         Cezanne
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.8 to 4.6 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 13th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-7-5800x.c2362">
+          Ryzen 7 5800X
+         </a>
+        </td>
+        <td>
+         Vermeer
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.8 to 4.7 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         105 W
+        </td>
+        <td>
+         Nov 5th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-7-3700x.c2130">
+          Ryzen 7 3700X
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.6 to 4.4 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-9-5950x.c2364">
+          Ryzen 9 5950X
+         </a>
+        </td>
+        <td>
+         Vermeer
+        </td>
+        <td>
+         16  / 32
+        </td>
+        <td>
+         3.4 to 4.9 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         64MB
+        </td>
+        <td>
+         105 W
+        </td>
+        <td>
+         Nov 5th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-9-5900x.c2363">
+          Ryzen 9 5900X
+         </a>
+        </td>
+        <td>
+         Vermeer
+        </td>
+        <td>
+         12  / 24
+        </td>
+        <td>
+         3.7 to 4.8 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         64MB
+        </td>
+        <td>
+         105 W
+        </td>
+        <td>
+         Nov 5th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/a8-7680.c2120">
+          A8-7680
+         </a>
+        </td>
+        <td>
+         Godaveri
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         3.5 to 3.8 GHz
+        </td>
+        <td>
+         Socket FM2+
+        </td>
+        <td>
+         28 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         45 W
+        </td>
+        <td>
+         Oct 26th, 2018
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/fx-8350.c1099">
+          FX-8350
+         </a>
+        </td>
+        <td>
+         Vishera
+        </td>
+        <td>
+         8
+        </td>
+        <td>
+         4 to 4.2 GHz
+        </td>
+        <td>
+         Socket AM3+
+        </td>
+        <td>
+         32 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Oct 23rd, 2012
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-2-duo-e8400.c467">
+          Core 2 Duo E8400
+         </a>
+        </td>
+        <td>
+         Wolfdale
+        </td>
+        <td>
+         2
+        </td>
+        <td>
+         3 GHz
+        </td>
+        <td>
+         Socket 775
+        </td>
+        <td>
+         45 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jan 1st, 2008
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-2600.c2015">
+          Ryzen 5 2600
+         </a>
+        </td>
+        <td>
+         Zen
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.4 to 3.9 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         12 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 19th, 2018
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/fx-6300.c1210">
+          FX-6300
+         </a>
+        </td>
+        <td>
+         Vishera
+        </td>
+        <td>
+         6
+        </td>
+        <td>
+         3.5 to 4.1 GHz
+        </td>
+        <td>
+         Socket AM3+
+        </td>
+        <td>
+         32 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         95 W
+        </td>
+        <td>
+         Oct 23rd, 2012
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-2600.c724">
+          Core i7-2600
+         </a>
+        </td>
+        <td>
+         Sandy Bridge
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.4 to 3.8 GHz
+        </td>
+        <td>
+         Socket 1155
+        </td>
+        <td>
+         32 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         95 W
+        </td>
+        <td>
+         Jan 9th, 2011
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-5500u.c2372">
+          Ryzen 5 5500U
+         </a>
+        </td>
+        <td>
+         Lucienne
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         2.1 to 4 GHz
+        </td>
+        <td>
+         Socket FP6
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         25 W
+        </td>
+        <td>
+         Jan 12th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/athlon-3000g.c2243">
+          Athlon 3000G
+         </a>
+        </td>
+        <td>
+         Zen
+        </td>
+        <td>
+         2  / 4
+        </td>
+        <td>
+         3.5 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         35 W
+        </td>
+        <td>
+         Nov 20th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-3500x.c2264">
+          Ryzen 5 3500X
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         6
+        </td>
+        <td>
+         3.6 to 4.1 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Sep 24th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-3470.c1039">
+          Core i5-3470
+         </a>
+        </td>
+        <td>
+         Ivy Bridge
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         3.2 to 3.6 GHz
+        </td>
+        <td>
+         Socket 1155
+        </td>
+        <td>
+         22 nm
+        </td>
+        <td>
+         6MB
+        </td>
+        <td>
+         77 W
+        </td>
+        <td>
+         Jun 1st, 2012
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-7-5800h.c2368">
+          Ryzen 7 5800H
+         </a>
+        </td>
+        <td>
+         Cezanne
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.2 to 4.4 GHz
+        </td>
+        <td>
+         Socket FP6
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         54 W
+        </td>
+        <td>
+         Jan 12th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i3-10105f.c2415">
+          Core i3-10105F
+         </a>
+        </td>
+        <td>
+         Comet Lake-R
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.7 to 4.4 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         6MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Mar 16th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-3-3200g.c2205">
+          Ryzen 3 3200G
+         </a>
+        </td>
+        <td>
+         Picasso
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         3.6 to 4 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         12 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-10400.c2210">
+          Core i5-10400
+         </a>
+        </td>
+        <td>
+         Comet Lake
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         2.9 to 4.3 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         12MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 30th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-12600k.c2509">
+          Core i5-12600K
+         </a>
+        </td>
+        <td>
+         Alder Lake
+        </td>
+        <td>
+         10  / 16
+        </td>
+        <td>
+         3.7 to 4.9 GHz
+        </td>
+        <td>
+         Socket 1700
+        </td>
+        <td>
+         10 nm
+        </td>
+        <td>
+         20MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Nov 4th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i9-11900k.c2366">
+          Core i9-11900K
+         </a>
+        </td>
+        <td>
+         Rocket Lake
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.5 to 5.3 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Mar 16th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-9-3900x.c2128">
+          Ryzen 9 3900X
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         12  / 24
+        </td>
+        <td>
+         3.8 to 4.6 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         64MB
+        </td>
+        <td>
+         105 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-1600.c1900">
+          Ryzen 5 1600
+         </a>
+        </td>
+        <td>
+         Zen
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.2 to 3.6 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 11th, 2017
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-3400g.c2204">
+          Ryzen 5 3400G
+         </a>
+        </td>
+        <td>
+         Picasso
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.7 to 4.2 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         12 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/a8-9600.c1957">
+          A8-9600
+         </a>
+        </td>
+        <td>
+         Bristol Ridge
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         3.1 to 3.4 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         28 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 27th, 2017
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-3770.c1002">
+          Core i7-3770
+         </a>
+        </td>
+        <td>
+         Ivy Bridge
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.4 to 3.9 GHz
+        </td>
+        <td>
+         Socket 1155
+        </td>
+        <td>
+         22 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         77 W
+        </td>
+        <td>
+         Apr 29th, 2012
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i3-10100.c2206">
+          Core i3-10100
+         </a>
+        </td>
+        <td>
+         Comet Lake
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.6 to 4.3 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         6MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 30th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-1135g7.c2346">
+          Core i5-1135G7
+         </a>
+        </td>
+        <td>
+         Tiger Lake-U
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         2.4 to 4.2 GHz
+        </td>
+        <td>
+         BGA 1449
+        </td>
+        <td>
+         10 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         28 W
+        </td>
+        <td>
+         Sep 2nd, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-11700f.c2398">
+          Core i7-11700F
+         </a>
+        </td>
+        <td>
+         Rocket Lake
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         2.5 to 4.9 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Mar 16th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-3-3100.c2298">
+          Ryzen 3 3100
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.6 to 3.9 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Apr 24th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/athlon-ii-x2-250.c602">
+          Athlon II X2 250
+         </a>
+        </td>
+        <td>
+         Regor
+        </td>
+        <td>
+         2
+        </td>
+        <td>
+         3 GHz
+        </td>
+        <td>
+         Socket AM3
+        </td>
+        <td>
+         45 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jun 2nd, 2009
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-3-3250u.c2287">
+          Ryzen 3 3250U
+         </a>
+        </td>
+        <td>
+         Picasso
+        </td>
+        <td>
+         2  / 4
+        </td>
+        <td>
+         2.6 to 3.5 GHz
+        </td>
+        <td>
+         Socket FP5
+        </td>
+        <td>
+         12 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         15 W
+        </td>
+        <td>
+         Jan 6th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-11700k.c2367">
+          Core i7-11700K
+         </a>
+        </td>
+        <td>
+         Rocket Lake
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.6 to 5 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Mar 16th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-10700k.c2215">
+          Core i7-10700K
+         </a>
+        </td>
+        <td>
+         Comet Lake
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.8 to 5.1 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         125 W
+        </td>
+        <td>
+         Apr 30th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i9-9900k.c2098">
+          Core i9-9900K
+         </a>
+        </td>
+        <td>
+         Coffee Lake-R
+        </td>
+        <td>
+         8  / 16
+        </td>
+        <td>
+         3.6 to 5 GHz
+        </td>
+        <td>
+         Socket 1151
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         16MB
+        </td>
+        <td>
+         95 W
+        </td>
+        <td>
+         Oct 19th, 2018
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/pentium-g4400.c1839">
+          Pentium G4400
+         </a>
+        </td>
+        <td>
+         Skylake
+        </td>
+        <td>
+         2
+        </td>
+        <td>
+         3.3 GHz
+        </td>
+        <td>
+         Socket 1151
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         51 W
+        </td>
+        <td>
+         Sep 1st, 2015
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-4770.c1473">
+          Core i7-4770
+         </a>
+        </td>
+        <td>
+         Haswell
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.4 to 3.9 GHz
+        </td>
+        <td>
+         Socket 1150
+        </td>
+        <td>
+         22 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         84 W
+        </td>
+        <td>
+         Jun 2nd, 2013
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-11400.c2406">
+          Core i5-11400
+         </a>
+        </td>
+        <td>
+         Rocket Lake
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         2.6 to 4.4 GHz
+        </td>
+        <td>
+         Socket 1200
+        </td>
+        <td>
+         14 nm
+        </td>
+        <td>
+         12MB
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Mar 16th, 2021
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i5-650.c664">
+          Core i5-650
+         </a>
+        </td>
+        <td>
+         Clarkdale
+        </td>
+        <td>
+         2  / 4
+        </td>
+        <td>
+         3.2 to 3.466 GHz
+        </td>
+        <td>
+         Socket 1156
+        </td>
+        <td>
+         32 nm
+        </td>
+        <td>
+         4MB
+        </td>
+        <td>
+         73 W
+        </td>
+        <td>
+         Jan 7th, 2010
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/a10-9700.c1955">
+          A10-9700
+         </a>
+        </td>
+        <td>
+         Bristol Ridge
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         3.5 to 3.8 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         28 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         65 W
+        </td>
+        <td>
+         Jul 27th, 2017
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-threadripper-3990x.c2271">
+          Ryzen Threadripper 3990X
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         64  / 128
+        </td>
+        <td>
+         2.9 to 4.3 GHz
+        </td>
+        <td>
+         Socket TRX4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         128MB
+        </td>
+        <td>
+         280 W
+        </td>
+        <td>
+         Feb 7th, 2020
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-2-quad-q6600-95w.c403">
+          Core 2 Quad Q6600 (95W)
+         </a>
+        </td>
+        <td>
+         Kentsfield
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         2.4 GHz
+        </td>
+        <td>
+         Socket 775
+        </td>
+        <td>
+         65 nm
+        </td>
+        <td>
+         N/A
+        </td>
+        <td>
+         95 W
+        </td>
+        <td>
+         Jul 23rd, 2007
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/ryzen-5-3600x.c2131">
+          Ryzen 5 3600X
+         </a>
+        </td>
+        <td>
+         Matisse
+        </td>
+        <td>
+         6  / 12
+        </td>
+        <td>
+         3.8 to 4.4 GHz
+        </td>
+        <td>
+         Socket AM4
+        </td>
+        <td>
+         7 nm
+        </td>
+        <td>
+         32MB
+        </td>
+        <td>
+         95 W
+        </td>
+        <td>
+         Jul 7th, 2019
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i7-4790.c1747">
+          Core i7-4790
+         </a>
+        </td>
+        <td>
+         Haswell
+        </td>
+        <td>
+         4  / 8
+        </td>
+        <td>
+         3.6 to 4 GHz
+        </td>
+        <td>
+         Socket 1150
+        </td>
+        <td>
+         22 nm
+        </td>
+        <td>
+         8MB
+        </td>
+        <td>
+         84 W
+        </td>
+        <td>
+         May 1st, 2014
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="/cpu-specs/core-i3-370m.c1877">
+          Core i3-370M
+         </a>
+        </td>
+        <td>
+         Arrandale
+        </td>
+        <td>
+         2  / 4
+        </td>
+        <td>
+         2.4 GHz
+        </td>
+        <td>
+         Socket G1
+        </td>
+        <td>
+         32 nm
+        </td>
+        <td>
+         3MB
+        </td>
+        <td>
+         35 W
+        </td>
+        <td>
+         Jun 20th, 2010
+        </td>
+       </tr>
+      </table>
+     </div>
+     <div class="tablewrapper" id="ajaxresults">
+     </div>
+    </article>
+    <aside class="side-aslkdhsajkd-bar">
+     <label for="sidebar-check" id="sidebar-toggle" onclick="" title="Close">
+     </label>
+     <div class="sidebar-item sidebar-time">
+      <span class="sidebar-time__cur">
+       Nov 22nd, 2021 15:30 EST
+      </span>
+      <a class="sidebar-time__link" href="#">
+       change timezone
+      </a>
+     </div>
+     <script>
+      loadjs.ready(['jquery', 'popup'], function() {
+							$('.sidebar-time__cur, .sidebar-time__link').on('click', function(e) {
+								e.preventDefault();
+								popup.ShowAJAX('Please select your timezone', '/set-timezone', { width:455 });
+							});
+						});
+     </script>
+     <article class="sidebar-item sidebar-search">
+      <form action="/search" class="sidebar-search__form" method="get">
+       <input autocomplete="off" class="sidebar-search__input" name="search" placeholder="Search TechPowerUp" type="text">
+        <input class="sidebar-search__submit" type="submit" value=""/>
+       </input>
+      </form>
+     </article>
+     <article class="sidebar-item sidebar-login">
+      <a href="/forums/login/">
+       Sign in
+      </a>
+      /
+      <a href="/forums/register">
+       Register
+      </a>
+     </article>
+     <article class="sidebar-item sidebar-drivers">
+      <h1 class="sidebar-item__heading">
+       Latest GPU Drivers
+      </h1>
+      <ul class="sidebar-drivers__list">
+       <li>
+        <a class="sidebar-drivers__driver sidebar-drivers__driver--nvidia" href="/download/nvidia-geforce-graphics-drivers/">
+         NVIDIA GeForce 496.76 WHQL
+        </a>
+       </li>
+       <li>
+        <a class="sidebar-drivers__driver sidebar-drivers__driver--amd" href="/download/amd-radeon-graphics-drivers/">
+         AMD Radeon 21.11.3 Beta
+        </a>
+       </li>
+       <li>
+        <a class="sidebar-drivers__driver sidebar-drivers__driver--intel" href="/download/intel-integrated-graphics-drivers/">
+         Intel 30.0.101.1069
+        </a>
+       </li>
+      </ul>
+     </article>
+     <div class="debar-item mnnusjsddg">
+      <i>
+       <i>
+        <a href="http://www.techpowerup.com/images/1ec/1605.png">
+         <img alt="" src="https://tpucdn.com/review/sbkiw-2457018040sbkiw/images/db7ef64c.jpg"/>
+        </a>
+       </i>
+       <span class="a440b2d1e27db8da81763c5d197795dc">
+       </span>
+      </i>
+     </div>
+     <article class="sidebar-item sidebar-newposts">
+      <h1 class="sidebar-item__heading">
+       New Forum Posts
+      </h1>
+      <ul class="sidebar-newposts__list">
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T20:05:18+0000">
+          15:05
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          AsRock
+         </span>
+        </div>
+        <a href="/forums/threads/grand-theft-auto-the-trilogy-%E2%80%93-the-definitive-edition-and-more-coming-soon.287680/unread">
+         Grand Theft Auto: The Trilogy – The Definitive Edition and More Coming Soon
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         43
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:59:47+0000">
+          14:59
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          Tigger
+         </span>
+        </div>
+        <a href="/forums/threads/ryzen-owners-is-alder-lake-tempting-enough-to-switch-to-intel.289019/unread">
+         Ryzen Owners: Is Alder Lake tempting enough to switch to Intel?
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         68
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:58:31+0000">
+          14:58
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          Taraquin
+         </span>
+        </div>
+        <a href="/forums/threads/what-is-your-max-infinity-fabric-on-ryzen-5000-september-2021-edition.286824/unread">
+         What is your max infinity fabric on ryzen 5000? September 2021 edition
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         335
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:55:55+0000">
+          14:55
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          Ali23000
+         </span>
+        </div>
+        <a href="/forums/threads/radeonrx580-8g-samsung.289170/unread">
+         RadeonRX580-8G-Samsung
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         22
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:47:34+0000">
+          14:47
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          BigMook89508
+         </span>
+        </div>
+        <a href="/forums/threads/need-help-identifying-an-asic-miner-i-have.289158/unread">
+         Need Help identifying an ASIC miner I have
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         8
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:43:15+0000">
+          14:43
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          Arjai
+         </span>
+        </div>
+        <a href="/forums/threads/have-you-got-pie-today.93832/unread">
+         Have you got pie today?
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         15472
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:38:55+0000">
+          14:38
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          dirtyferret
+         </span>
+        </div>
+        <a href="/forums/threads/ibuypower-element-mini.289222/unread">
+         iBUYPOWER Element Mini
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         5
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:38:19+0000">
+          14:38
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          oobymach
+         </span>
+        </div>
+        <a href="/forums/threads/ghetto-mods.55387/unread">
+         Ghetto Mods
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         3367
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:21:56+0000">
+          14:21
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          dragontamer5788
+         </span>
+        </div>
+        <a href="/forums/threads/why-did-we-abandon-hydrogen-cars-so-quickly.281925/unread">
+         Why did we abandon hydrogen cars so quickly?
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         274
+        </span>
+        )
+       </li>
+       <li>
+        <div class="sidebar-newposts__byline">
+         <time class="sidebar-newposts__time" datetime="2021-11-22T19:20:12+0000">
+          14:20
+         </time>
+         by
+         <span class="sidebar-newposts__username">
+          Alan Finotty
+         </span>
+        </div>
+        <a href="/forums/threads/post-your-speedtest-net-speeds.101525/unread">
+         Post your Speedtest.net Speeds!
+        </a>
+        (
+        <span class="sidebar-newposts__replycount">
+         1979
+        </span>
+        )
+       </li>
+      </ul>
+     </article>
+     <div class="debar-item mnnusjsddg">
+      <i>
+       <i>
+        <a href="http://www.techpowerup.com/images/1ec/1637.png">
+         <img alt="" src="https://www.techpowerup.com/review/kjgcdrx-75kjgcdrx/images/eb279aed.jpg"/>
+        </a>
+       </i>
+       <span class="a440b2d1e27db8da81763c5d197795dc">
+       </span>
+      </i>
+     </div>
+     <article class="sidebar-item sidebar-top-reviews">
+      <h1 class="sidebar-item__heading">
+       Popular Reviews
+      </h1>
+      <ul class="sidebar-top-reviews__list">
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-04T13:00:04+0000">
+         Nov 4th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-i9-12900k-alder-lake-12th-gen/">
+         Intel Core i9-12900K Review - Fighting for the Performance Crown
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-04T13:00:03+0000">
+         Nov 4th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-i7-12700k-alder-lake-12th-gen/">
+         Intel Core i7-12700K Review - Almost as Fast as the i9-12900K
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-04T13:00:02+0000">
+         Nov 4th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-i5-12600k-alder-lake-12th-gen/">
+         Intel Core i5-12600K Review - Winning Price/Performance
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-09T20:44:00+0000">
+         Nov 9th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-i9-12900k-alder-lake-ddr4-vs-ddr5/">
+         DDR4 vs. DDR5 on Intel Core i9-12900K Alder Lake Review
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-04T12:59:00+0000">
+         Nov 4th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-z690-alder-lake-motherboard-comparison-buying-guide/">
+         86 Motherboards Compared for Intel Z690 Alder Lake
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-01T18:51:00+0000">
+         Nov 1st, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/gigabyte-m32u/">
+         Gigabyte M32U Review - Finally a Reasonably Priced 4K Gaming Monitor
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-19T20:55:00+0000">
+         Nov 19th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-i9-12900k-e-cores-only-performance/">
+         Intel Core i9-12900K E-Cores Only Performance Review
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-10-27T16:00:15+0000">
+         Oct 27th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/intel-core-12th-gen-alder-lake-preview/">
+         Intel Core 12th Gen Alder Lake Preview
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-01T22:47:00+0000">
+         Nov 1st, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/geforce-rtx-3080-vs-radeon-rx-6800-xt-megabench/">
+         50 Games Tested: GeForce RTX 3080 vs. Radeon RX 6800 XT
+        </a>
+       </li>
+       <li>
+        <time class="sidebar-top-reviews__date" datetime="2021-11-18T14:00:02+0000">
+         Nov 18th, 2021
+        </time>
+        <a class="sidebar-top-reviews__link" href="/review/wemax-nova-ust-4k-projector/">
+         Wemax Nova Ultra Short Throw 4K Laser Projector Review
+        </a>
+       </li>
+      </ul>
+     </article>
+     <article class="sidebar-item sidebar-top-news">
+      <h1 class="sidebar-item__heading">
+       Controversial News Posts
+      </h1>
+      <ul class="sidebar-top-news__list">
+       <li>
+        <a class="sidebar-top-news__link" href="/288802/noctua-introduces-nh-l9i-low-profile-cpu-coolers-for-lga1700-and-na-fd1-fan-duct">
+         Noctua Introduces NH-L9i Low-profile CPU Coolers for LGA1700 and NA-FD1 Fan Duct
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         131
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288193/intel-xe-hpg-arc-alchemist-graphics-card-alleged-pricing-points-towards-usd-650-usd-825-range">
+         Intel Xe-HPG Arc Alchemist Graphics Card Alleged Pricing Points Towards $650-$825 Range
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         128
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288493/intel-core-i9-12900k-36-faster-than-stock-in-maximum-turbo-power-mode">
+         Intel Core i9-12900K 36% Faster Than Stock in Maximum Turbo Power Mode
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         120
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288435/introducing-meta-a-social-technology-company">
+         Introducing Meta: A Social Technology Company
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         103
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288249/intel-core-i5-12600k-47-faster-than-ryzen-5-5600x-in-leaked-cpu-z-benchmark">
+         Intel Core i5-12600K 47% Faster Than Ryzen 5 5600X in Leaked CPU-Z Benchmark
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         90
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288894/intel-b660-motherboards-may-lack-pcie-5-0-support">
+         Intel B660 Motherboards May Lack PCIe 5.0 Support
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         78
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/289118/amd-to-steer-motherboard-partners-away-from-intel-wlan-toward-mediatek-co-branded-ones">
+         AMD to Steer Motherboard Partners Away from Intel WLAN, Toward MediaTek Co-branded Ones
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         74
+        </span>
+        )
+       </li>
+       <li>
+        <a class="sidebar-top-news__link" href="/288676/intel-disables-directx-12-api-loading-on-haswell-processors">
+         Intel Disables DirectX 12 API Loading on Haswell Processors
+        </a>
+        (
+        <span class="sidebar-top-news__replycount">
+         71
+        </span>
+        )
+       </li>
+      </ul>
+     </article>
+    </aside>
+   </span>
+   <div class="page-is-loading">
+   </div>
+   <footer class="site-footer">
+    Copyright © 2004-2021 www.techpowerup.com.
+    <br class="site-footer__break"/>
+    All rights reserved.
+    <br/>
+    All trademarks used are properties of their respective owners.
+   </footer>
+  </div>
+  <script>
+   loadjs.ready(['jquery'], function() {
+        if ($(window).width()>=900)
+            return;
+
+        var $b=$('.mnnusjsddg');
+        var $b1=$b.eq(0);
+        var $b2=$b.eq(1);
+                        $b1.insertBefore('.processors');
+        $b2.insertAfter('.processors');
+                                    
+    });
+  </script>
+  <script>
+   var f = function() {
+				window.ga = function () { ga.q.push(arguments) };
+				ga.q = [];
+				ga.l = +new Date;
+
+				ga('create', 'UA-5304621-1', { 'siteSpeedSampleRate': 100 });
+				ga('set', 'transport', 'beacon');
+				ga('set', 'anonymizeIp', true);
+				ga('send', 'timing', 'Page', 'Gen', 100.5);
+				ga('send', 'pageview');
+
+				loadjs(["https://tpucdn.com/js/ga-v1637500217419.js"], 'ga');
+			};
+
+			if ('requestIdleCallback' in window)
+				requestIdleCallback(f, { timeout: 5000 });
+			else
+				f();
+  </script>
+ </body>
+</html>

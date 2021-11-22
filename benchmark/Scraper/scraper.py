@@ -1,4 +1,5 @@
 import requests
+import json
 from bs4 import BeautifulSoup
 
 headers = {
@@ -78,9 +79,11 @@ class ScrapeGPUs():
 scraper = ScrapeGPUs(soup)
 data = scraper.get_data().__str__()
 
-# f = open("demofile2.txt", "w")
-# f.write(data)
-# f.close()
+json_formatted_str = json.dumps(data, indent=2)
+
+f = open("demofile2.json", "w")
+f.write(json_formatted_str)
+f.close()
 print(data)
 
 # print(scraper)

@@ -12,6 +12,7 @@ db_name = rds_config.db_name
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+
 try:
     conn = pymysql.connect(host=rds_host, user=name, passwd=password, db=db_name, connect_timeout=5, charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 except pymysql.MySQLError as e:

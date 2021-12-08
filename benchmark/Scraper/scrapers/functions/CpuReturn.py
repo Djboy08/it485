@@ -38,3 +38,7 @@ def handler(event, context):
         'statusCode': 200,
         'body': json.dumps(partList)
     }
+
+# event = {"queryStringParameters":{"model":"Ryzen 5 3600"}}
+# x = handler(event,"")
+# print(x)

@@ -26,13 +26,15 @@ def handler(event, context):
     """
     This function fetches content from MySQL RDS instance
     """
-    Gpuname = event["queryStringParameters"]["Gpuname"]
+    model = event["queryStringParameters"]["model"]
+    partList = []
     with conn.cursor() as cur:
-        sql = f'SELECT * FROM BenchpressDB.GPUs WHERE `Gpuname` = "{Gpuname}";'
+        sql = f'SELECT * FROM BenchpressDB.GPUs WHERE `model` = "{model}";'
         cur.execute(sql)
         partList = cur.fetchone()
         # conn.commit()
 
     return {
-        sql
+        'statusCode': 200,
+        'body': json.dumps(partList)
     }

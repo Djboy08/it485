@@ -1,0 +1,11 @@
+{
+    "L3Cache": "16MB",
+    "Released": "Mar 16th, 2021",
+    "Tdp": "65 W",
+    "clock": "2.5 to 4.9 GHz",
+    "codename": "Rocket Lake",
+    "cores": "8  / 16",
+    "name": "Core i7-11700",
+    "process": "14 nm",
+    "socket": "Socket 1200"
+}

@@ -1,0 +1,11 @@
+{
+    "L3Cache": "25MB",
+    "Released": "Nov 4th, 2021",
+    "Tdp": "125 W",
+    "clock": "3.6 to 5 GHz",
+    "codename": "Alder Lake",
+    "cores": "12  / 20",
+    "name": "Core i7-12700K",
+    "process": "10 nm",
+    "socket": "Socket 1700"
+}

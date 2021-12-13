@@ -21,7 +21,7 @@ function Games(props) {
   return (
     <>
       <div
-        class="container"
+        className="container"
         style={{
           backgroundColor: "#31353c",
           borderRadius: "10px",

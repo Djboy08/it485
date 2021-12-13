@@ -42,7 +42,8 @@ function SearchButton(props) {
       const element = (
         <input
           type="button"
-          class="dropdown-item"
+          key={gameName}
+          className="dropdown-item"
           type="button"
           value={gameName}
           onClick={(e) => {
@@ -65,9 +66,9 @@ function SearchButton(props) {
 
   return (
     <>
-      <div class="dropdown btn-group">
+      <div className="dropdown btn-group">
         <button
-          class="btn btn-secondary dropdown-toggle"
+          className="btn btn-secondary dropdown-toggle"
           type="button"
           id="dropdown_coins"
           data-toggle="dropdown"
@@ -79,16 +80,16 @@ function SearchButton(props) {
         </button>
         <div
           id="menu"
-          class="dropdown-menu dropdown-menu-start"
+          className="dropdown-menu dropdown-menu-start"
           aria-labelledby="dropdown_coins"
         >
-          <form class="px-4 py-2">
+          <form className="px-4 py-2">
             <input
               type="search"
-              class="form-control"
+              className="form-control"
               id="searchCoin"
               placeholder="Search game"
-              autofocus="autofocus"
+              autoFocus="autofocus"
               autoComplete="off"
               onChange={checkForGame}
               value={gameValue}
@@ -106,7 +107,7 @@ function SearchButton(props) {
           </div>
           <div
             id="empty"
-            class="dropdown-header"
+            className="dropdown-header"
             style={{ display: "none" }}
             ref={(node) => {
               noItems.current = node;

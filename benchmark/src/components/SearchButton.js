@@ -2,28 +2,49 @@ import gamesList from "../assets/json/gamesList.json";
 import React, { useState, useEffect } from "react";
 
 function SearchButton(props) {
+  const [name, setName] = useState(props.name);
+  const [values, setValues] = useState(props.values);
   const [gameValue, setGameValue] = useState("");
-  const [gamesL, setGamesL] = useState(gamesList);
-  const menuItemsRef = React.useRef();
-  const noItems = React.useRef();
+  const [searchButtonText, setSearchButtonText] = useState(name);
+  const [searchList, setSearchList] = useState(props.values);
+  const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    //   setGamesL(gamesList);
-    // menuItemsRef.current. = buildDropDown(gamesList.data);
-  });
+  const menuRef = React.useRef();
+  const noItems = React.useRef();
+  const wrapperRef = React.useRef(null);
+
+  function useOutsideAlerter(ref) {
+    useEffect(() => {
+      /**
+       * Alert if clicked on outside of element
+       */
+      function handleClickOutside(event) {
+        if (ref.current && !ref.current.contains(event.target) && isOpen == true) {
+          menuRef.current.style.display = "none";
+        }
+      }
+      // Bind the event listener
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        // Unbind the event listener on clean up
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    });
+  }
+  useOutsideAlerter(menuRef);
 
   function checkForGame(e) {
     const str = e.target.value;
     setGameValue(str);
     if (str == "" || str == null || str == " ") {
-      setGamesL(gamesList);
+      setSearchList(values);
       return;
     }
     const lowerCaseStr = str.toLowerCase();
-    const results = gamesList.data.filter((game) => {
-      return (
-        game.substring(0, lowerCaseStr.length).toLowerCase() == lowerCaseStr
-      );
+    const results = searchList.data.filter((element) => {
+      return element.toLowerCase().includes(lowerCaseStr) == true
+        ? true
+        : false;
     });
     let d = {
       data: results,
@@ -34,20 +55,21 @@ function SearchButton(props) {
     } else {
       noItems.current.style.display = "none";
     }
-    setGamesL(d);
+    setSearchList(d);
   }
 
   function buildDropDown() {
-    const group = gamesL.data.map((gameName) => {
+    const group = searchList.data.map((itemName) => {
       const element = (
         <input
           type="button"
-          key={gameName}
+          key={itemName}
           className="dropdown-item"
           type="button"
-          value={gameName}
+          value={itemName}
           onClick={(e) => {
-            document.querySelector("#menu").style.display = "none";
+            menuRef.current.style.display = "none";
+            setSearchButtonText(e.target.value);
             setGameValue(e.target.value);
           }}
         />
@@ -60,8 +82,10 @@ function SearchButton(props) {
   //   buildDropDown(names);
 
   function onClick(e) {
-    e.preventDefault();
-    document.querySelector("#menu").style.display = "block";
+    // e.preventDefault();
+    setIsOpen(true);
+    console.log(isOpen)
+    menuRef.current.style.display = "block";
   }
 
   return (
@@ -76,19 +100,22 @@ function SearchButton(props) {
           aria-expanded="false"
           onClick={onClick}
         >
-          Search
+          {searchButtonText}
         </button>
         <div
           id="menu"
-          className="dropdown-menu dropdown-menu-start"
+          className="dropdown-menu dropdown-menu-start dropdown-menu-dark"
           aria-labelledby="dropdown_coins"
+          ref={(node) => {
+            menuRef.current = node;
+          }}
         >
           <form className="px-4 py-2">
             <input
               type="search"
               className="form-control"
               id="searchCoin"
-              placeholder="Search game"
+              placeholder={name}
               autoFocus="autofocus"
               autoComplete="off"
               onChange={checkForGame}
@@ -103,7 +130,7 @@ function SearchButton(props) {
               overflowY: "auto",
             }}
           >
-            {buildDropDown(gamesList.data)}
+            {buildDropDown(values.data)}
           </div>
           <div
             id="empty"

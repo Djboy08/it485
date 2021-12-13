@@ -39,6 +39,17 @@ html {
   color: #61dafb;
 }
 
+.custom-container {
+    background-color: #31353c;
+    border-radius: 10px;
+    border: 1px solid #31353c;
+    padding: 20px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

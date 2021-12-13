@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import { HomeCard, SearchButton } from "../components";
+import { HomeCard, SearchButton, SearchBar } from "../components";
 import logo from "../assets/logo.png";
 import firstCardLogo from "../assets/cardImg1.jpg";
 import secondCardLogo from "../assets/Who_We_aRe.jpg";
@@ -17,23 +17,118 @@ function Games(props) {
   //     $('#dropdown_coins').text($(this)[0].value)
   //     $("#dropdown_coins").dropdown('toggle');
   // })
+  const s = {
+    backgroundColor: "#31353c",
+    borderRadius: "10px",
+    border: "1px solid #31353c",
+    padding: "20px",
+    marginTop: "20px",
+    marginLeft: "10px",
+    marginRight: "10px",
+  };
 
   return (
     <>
-      <div
-        className="container"
-        style={{
-          backgroundColor: "#31353c",
-          borderRadius: "10px",
-          border: "1px solid #31353c",
-          padding: "20px",
-          marginTop: "20px",
-        }}
-      >
-        <h1 style={{ color: "white" }}> Can you run it? </h1>
-        <SearchButton name="Search game" values={gamesList} />
-        <SearchButton name="Search GPUs" values={gpuList} />
-        <SearchButton name="Search CPUs" values={cpuList} />
+      <div className="container">
+        <h1 style={{ color: "white", marginTop: "20px" }}> Can you run it? </h1>
+        <div className="row" style={{ color: "white" }}>
+          <div className="col" style={s}>
+            <h1 style={{ color: "white" }}> User Part List </h1>
+
+            <div class="input-group mb-3 mx-auto" style={{ maxWidth: "17rem" }}>
+              <span
+                class="input-group-text bg-dark text-white border-dark"
+                id="basic-addon1"
+              >
+                Part List Code
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Code"
+                aria-label="Code"
+                aria-describedby="basic-addon1"
+              />
+              <button
+                class="btn bg-dark text-white border-light"
+                type="button"
+                id="button-addon2"
+              >
+                {">"}
+              </button>
+            </div>
+            <label
+              className="form-label"
+              style={{
+                color: "white",
+              }}
+            >
+              GPU
+            </label>
+            <br />
+            <SearchButton name="Search GPUs" values={gpuList} disabled />
+            <br />
+            <label
+              className="form-label"
+              style={{
+                color: "white",
+              }}
+            >
+              CPU
+            </label>
+            <br />
+            <SearchButton name="Search CPUs" values={cpuList} disabled />
+
+            <br />
+            <label
+              className="form-label"
+              style={{
+                color: "white",
+              }}
+            >
+              RAM
+            </label>
+            <div class="input-group mb-3 mx-auto" style={{ width: "17rem" }}>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="ram"
+                aria-label="ram"
+                aria-describedby="basic-addon1"
+                disabled
+                readOnly
+              />
+              <span
+                class="input-group-text bg-dark text-white"
+                id="basic-addon1"
+              >
+                GB
+              </span>
+              <br />
+            </div>
+          </div>
+          <div className="col" style={s}>
+            <h1 style={{ color: "white" }}> Game Selector </h1>
+            <SearchBar name="Search game" values={gamesList} />
+
+            <div
+              className="card bg-dark mx-auto my-3"
+              style={{ width: "18rem" }}
+            >
+              <img src={logo} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

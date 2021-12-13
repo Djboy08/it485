@@ -99,8 +99,9 @@ function SearchButton(props) {
           aria-haspopup="true"
           aria-expanded="false"
           onClick={onClick}
+          disabled={props.disabled}
         >
-          {searchButtonText}
+          {props.value ? props.value : searchButtonText}
         </button>
         <div
           id="menu"

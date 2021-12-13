@@ -36,6 +36,9 @@ function NavBar(props) {
       <Nav.Link eventKey={2} href="contact">
         Contacts
       </Nav.Link>
+      <Nav.Link eventKey={3} href="games">
+        Game Benchmarker
+      </Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

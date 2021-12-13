@@ -5,6 +5,7 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Games from "./pages/Games";
 import { Footer } from "./components/index";
 // ?
 function App() {
@@ -12,21 +13,26 @@ function App() {
     <div className="App">
       <NavBar />
 
-        <Switch>
-            {/* Contact Page */}
-            <Route path="/contact/:id">
+      <Switch>
+        {/* Contact Page */}
+        {/* <Route path="/contact/:id">
                 
-            </Route>
+            </Route> */}
 
-            <Route path="/contact">
-            <Contact />
-            </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
 
-            {/* Main Page */}
-            <Route path="/">
-            <Home />
-            </Route>
-        </Switch>
+        {/* Games Page */}
+        <Route path="/games">
+          <Games />
+        </Route>
+
+        {/* Main Page */}
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
 
       <Footer />
     </div>

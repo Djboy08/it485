@@ -32,103 +32,132 @@ function Games(props) {
       <div className="container">
         <h1 style={{ color: "white", marginTop: "20px" }}> Can you run it? </h1>
         <div className="row d-flex" style={{ color: "white" }}>
-          <div className="col-12 col-md-4">
-            <div className="custom-container">
-              <h1 style={{ color: "white" }}> User Part List </h1>
+          <div className="col-12 col-md-4 my-auto">
+            <div
+              className="custom-container vertical-center"
+              style={{ minHeight: "40rem" }}
+            >
+              <div className="partList " style={{}}>
 
-              <div
-                class="input-group mb-3 mx-auto"
-                style={{ maxWidth: "17rem" }}
-              >
-                <span
-                  class="input-group-text bg-dark text-white border-dark"
-                  id="basic-addon1"
-                >
-                  Part List Code
-                </span>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Code"
-                  aria-label="Code"
-                  aria-describedby="basic-addon1"
-                />
-                <button
-                  class="btn bg-dark text-white border-light"
-                  type="button"
-                  id="button-addon2"
-                >
-                  {">"}
-                </button>
-              </div>
-              <label
-                className="form-label"
-                style={{
-                  color: "white",
-                }}
-              >
-                GPU
-              </label>
-              <br />
-              <SearchButton name="Search GPUs" values={gpuList} disabled />
-              <br />
-              <label
-                className="form-label"
-                style={{
-                  color: "white",
-                }}
-              >
-                CPU
-              </label>
-              <br />
-              <SearchButton name="Search CPUs" values={cpuList} disabled />
+                <h1 style={{ color: "white" }}> User Part List </h1>
 
-              <br />
-              <label
-                className="form-label"
-                style={{
-                  color: "white",
-                }}
-              >
-                RAM
-              </label>
-              <div class="input-group mb-3 mx-auto" style={{ maxWidth: "17rem" }}>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="ram"
-                  aria-label="ram"
-                  aria-describedby="basic-addon1"
-                  disabled
-                  readOnly
-                />
-                <span
-                  class="input-group-text bg-dark text-white"
-                  id="basic-addon1"
+                <div
+                  class="input-group mx-auto"
+                  style={{ maxWidth: "17rem" }}
                 >
-                  GB
-                </span>
+                  <span
+                    class="input-group-text bg-dark text-white border-dark"
+                    id="basic-addon1"
+                  >
+                    Part List Code
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Code"
+                    aria-label="Code"
+                    aria-describedby="basic-addon1"
+                  />
+                  <button
+                    class="btn bg-dark text-white border-light"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    {">"}
+                  </button>
+                  
+                </div>
+                <div className="progress" style={{height: "3px"}}>
+                  <div
+                    className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style={{ width: "25%" }}
+                  ></div>
+                </div>
+                <label
+                  className="form-label"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  GPU
+                </label>
                 <br />
+                <SearchButton name="Search GPUs" values={gpuList} disabled />
+                <br />
+                <label
+                  className="form-label"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  CPU
+                </label>
+                <br />
+                <SearchButton name="Search CPUs" values={cpuList} disabled />
+
+                <br />
+                <label
+                  className="form-label"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  RAM
+                </label>
+                <div
+                  class="input-group mb-3 mx-auto"
+                  style={{ maxWidth: "17rem" }}
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="ram"
+                    aria-label="ram"
+                    aria-describedby="basic-addon1"
+                    disabled
+                    readOnly
+                  />
+                  <span
+                    class="input-group-text bg-dark text-white"
+                    id="basic-addon1"
+                  >
+                    GB
+                  </span>
+
+                  <br />
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 my-auto">
             <div className="custom-container">
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                  role="progressbar"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style={{ width: "25%" }}
+                ></div>
+              </div>
               <h1 style={{ color: "white" }}> Benchmark </h1>
               Content hereContent hereContent hereContent hereContent here
               Content hereContent hereContent hereContent hereContent here
               Content hereContent hereContent hereContent hereContent here
             </div>
           </div>
-          <div className="col-12 col-md-4">
-            <div className="custom-container">
+          <div className="col-12 col-md-4 my-auto">
+            <div className="custom-container" style={{ minHeight: "40rem" }}>
               <h1 style={{ color: "white" }}> Game Selector </h1>
               <SearchBar name="Search game" values={gamesList} />
 
-              <div
-                className="card bg-dark mx-auto my-3"
-              >
+              <div className="card bg-dark mx-auto my-3">
                 <img src={logo} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Card title</h5>

@@ -6,7 +6,7 @@ import secondCardLogo from "../assets/Who_We_aRe.jpg";
 import thirdCardlogo from "../assets/Why_WE_Do_it.png";
 import BootstrapSelect from "react-bootstrap-select-dropdown";
 import { Dropdown, InputGroup, FormControl } from "react-bootstrap";
-import gamesList from "../assets/js/gamesList.json";
+import gamesList from "../assets/json/gamesList.json";
 
 import React, { useState, useEffect } from "react";
 

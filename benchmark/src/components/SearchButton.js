@@ -1,4 +1,4 @@
-import gamesList from "../assets/js/gamesList.json";
+import gamesList from "../assets/json/gamesList.json";
 import React, { useState, useEffect } from "react";
 
 function SearchButton(props) {

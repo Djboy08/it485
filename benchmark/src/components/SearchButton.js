@@ -40,13 +40,13 @@ function SearchButton(props) {
   useOutsideAlerter(menuRef);
 
   function checkForGame(e) {
-    const str = e.target.value;
-    setGameValue(str);
-    if (str == "" || str == null || str == " ") {
+    setGameValue(e.target.value);
+    setGameValue("")
+    if (e.target.value == "" || e.target.value == null || e.target.value == " ") {
       setSearchList(values);
       return;
     }
-    const lowerCaseStr = str.toLowerCase();
+    const lowerCaseStr = e.target.value.toLowerCase();
     const results = searchList.data.filter((element) => {
       return element.toLowerCase().includes(lowerCaseStr) == true
         ? true

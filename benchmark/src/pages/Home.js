@@ -25,22 +25,25 @@ function Home(props) {
             marginBottom: "20px",
         }} /> */}
 
-
-        
-        <h1 style={{color: "white"}}> Get started </h1>
-        <Button variant="dark" size="lg">Press Me!</Button>
+        <h1 style={{ color: "white" }}> Get started </h1>
+        <Button variant="dark" size="lg">
+          Press Me!
+        </Button>
         <div class="row justify-content-center">
           <HomeCard
+            circle
             src={firstCardLogo}
             title="What Is This"
             description="BÆnch Press is a website meant to make PC creation and Upgrading a whole lot more easier. With the use of our database, feel free to plan your next step in the PC world."
           />
           <HomeCard
+            circle
             src={secondCardLogo}
             title="Who Are We"
             description="A couple of college kids trying to make a useful tool for all to use. We all are very passionate about IT and hope we can help you out today."
           />
           <HomeCard
+            circle
             src={thirdCardlogo}
             title="Why We Do This"
             description="There are a lot of good tools for PC building out there, but we never felt there was one solid one someone with no PC knowlege can use. We want to make you a tool that can help even the clueless can use!"

@@ -28,32 +28,38 @@ def company(item):
 
 def fetch(cur, sql):
     cur.execute(sql)
-    return cur.fetchall()
+    all = cur.fetchall()
+    logger.info(all)
+    return all
 
 
-try:
-    conn = pymysql.connect(host=rds_host, user=name, passwd=password, db=db_name, connect_timeout=5, charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-except pymysql.MySQLError as e:
-    logger.error("ERROR: Unexpected error: Could not connect to MySQL instance.")
-    logger.error(e)
-    sys.exit()
+
 
 logger.info("SUCCESS: Connection to RDS MySQL instance succeeded")
 def handler(event, context):
     """
     This function fetches content from MySQL RDS instance
     """
+    try:
+        conn = pymysql.connect(host=rds_host, user=name, passwd=password, db=db_name, connect_timeout=15, charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+    except pymysql.MySQLError as e:
+        logger.error("ERROR: Unexpected error: Could not connect to MySQL instance.")
+        logger.error(e)
+        sys.exit()
     compareData = {}
 
     guid = event["queryStringParameters"]["guid"]
     gameName = event["queryStringParameters"]["gameName"]
-    partList = ""
+    partList = {}
+    gameData = {}
+    gpuData = {}
+    cpuData = {}
     with conn.cursor() as cur:
         # fetch part list
         sql = f'SELECT * FROM BenchpressDB.userPartList WHERE `guid` = "{guid}";'
         # cur.execute(sql)
         partList = fetch(cur, sql)[0]
-        
+
         # fetch game data
         sql = f'SELECT * FROM BenchpressDB.Games WHERE `GameName` = "{gameName}";'
         # cur.execute(sql)
@@ -120,9 +126,12 @@ def handler(event, context):
                 compareData["cpu"] = False
             else:
                 compareData["cpu"] = True
+        cur.close()
 
-
+    conn.close()
     return {
         'statusCode': 200,
         'body': json.dumps(compareData)
     }
+
+# print(handler({"queryStringParameters": {"guid": "e8b3eb0b", "gameName": "Overwatch"}}, {}))

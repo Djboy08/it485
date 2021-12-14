@@ -87,11 +87,13 @@ function Games(props) {
         setL({ ram: -1, cpu: -1, gpu: -1 });
         setBenchmarkLoadingbarValue("30%");
         setTimeout(() => {
-          setBenchmarkLoadingbarValue("70%");
+          setBenchmarkLoadingbarValue("100%");
         }, 1000);
         setTimeout(() => {
-          setBenchmarkLoadingbarValue("100%");
+          setBenchmarkLoadingbarValue("0%");
           setL({ ram: r, cpu: c, gpu: g });
+          console.log(json);
+          console.log(r, c, g)
         }, 2000);
       })
       .catch((error) => {
@@ -117,7 +119,9 @@ function Games(props) {
         return data ? JSON.parse(data) : {};
       })
       .then((json) => {
+        if(json == null) return;
         setPartList(json);
+        setPartLoadingbarValue("100%");
         setTimeout(() => {
           setPartLoadingbarValue("0%");
         }, 1000);

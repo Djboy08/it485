@@ -9,7 +9,7 @@ function Home(props) {
   return (
     <>
       <div
-        class="container"
+        className="container"
         style={{
           backgroundColor: "#31353c",
           borderRadius: "10px",
@@ -19,7 +19,7 @@ function Home(props) {
         }}
       >
         {/* <img src={logo} className="App-logo py-5 my-2" alt="logo" />
-        <hr class="solid" style={{
+        <hr className="solid" style={{
             color: "white",
             marginTop: "20px",
             marginBottom: "20px",
@@ -29,7 +29,7 @@ function Home(props) {
         <Button variant="dark" size="lg">
           Press Me!
         </Button>
-        <div class="row justify-content-center">
+        <div className="row justify-content-center">
           <HomeCard
             circle
             src={firstCardLogo}

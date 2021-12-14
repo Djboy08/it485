@@ -2,7 +2,7 @@
   "name": "benchmark",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,6 +17,7 @@
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
+    "use-chrome-storage": "^1.0.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

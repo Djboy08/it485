@@ -20,22 +20,22 @@ function Modal(props) {
 
   return (
     <>
-      <div class="modal bg-dark" tabindex="-1"
+      <div className="modal bg-dark" tabIndex="-1"
       style={{display: props.modalVisibility}}
       ref={(node)=>{modalRef.current = node}}>
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Part List Code</h5>
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title">Part List Code</h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
                 onClick={toggleVisibility}
               ></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <p>
                 Here is your part list code, use this on the games page to
                 benchmark your PC
@@ -43,10 +43,10 @@ function Modal(props) {
                 <b>CODE<br/>{props.guid}</b>
               </p>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-bs-dismiss="modal"
                 onClick={toggleVisibility}
               >
@@ -54,7 +54,7 @@ function Modal(props) {
               </button>
               <button 
               onClick={() => copyTextToClipboard(props.guid)}
-              type="button" class="btn btn-primary">
+              type="button" className="btn btn-primary">
                 Copy to Clipboard
               </button>
             </div>

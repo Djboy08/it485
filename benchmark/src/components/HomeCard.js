@@ -7,9 +7,9 @@ function HomeCard(props) {
 
   return (
     <>
-      <div class="col-lg-4 py-5" style={{color: "white"}}>
+      <div className="col-lg-4 py-5" style={{color: "white"}}>
         <svg
-          class= {s}
+          className= {s}
           width="140"
           height="140"
           xmlns="http://www.w3.org/2000/svg"

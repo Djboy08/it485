@@ -8,8 +8,13 @@ import Contact from "./pages/Contact";
 import Games from "./pages/Games";
 import Builder from "./pages/Builder";
 import { Footer } from "./components/index";
+import { createBrowserHistory } from 'history';
+
+const history = createBrowserHistory();
+
 // ?
 function App() {
+
   return (
     <div className="App">
       <NavBar />
@@ -19,14 +24,21 @@ function App() {
         {/* <Route path="/contact/:id">
                 
             </Route> */}
+        <Route path="/builder/:guid" component={Builder}/>
+        <Route path="/builder" component={Builder}/>
+        <Route path="/g/b">
+            /g/b
+        </Route>
+        <Route path="/g">
+            /g
+        </Route>
 
         <Route path="/contact" component={Contact}/>
 
         {/* Games Page */}
         <Route path="/games" component={Games}/>
 
-        {/* Build Page */}
-        <Route path="/build/:guid?" component={Builder}/>
+        
 
         {/* Main Page */}
         <Route path="/" component={Home}/>

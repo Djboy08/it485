@@ -155,16 +155,16 @@ function Games(props) {
               <div className="partList " style={{}}>
                 <h1 style={{ color: "white" }}> User Part List </h1>
 
-                <div class="input-group mx-auto" style={{ maxWidth: "17rem" }}>
+                <div className="input-group mx-auto" style={{ maxWidth: "17rem" }}>
                   <span
-                    class="input-group-text bg-dark text-white border-dark"
+                    className="input-group-text bg-dark text-white border-dark"
                     id="basic-addon1"
                   >
                     Part List Code
                   </span>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Code"
                     aria-label="Code"
                     aria-describedby="basic-addon1"
@@ -173,7 +173,7 @@ function Games(props) {
                     }}
                   />
                   <button
-                    class="btn bg-dark text-white border-light"
+                    className="btn bg-dark text-white border-light"
                     type="button"
                     id="button-addon2"
                     onClick={lookupPartList}
@@ -236,12 +236,12 @@ function Games(props) {
                   RAM
                 </label>
                 <div
-                  class="input-group mb-3 mx-auto"
+                  className="input-group mb-3 mx-auto"
                   style={{ maxWidth: "17rem" }}
                 >
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="ram"
                     aria-label="ram"
                     aria-describedby="basic-addon1"
@@ -250,7 +250,7 @@ function Games(props) {
                     value={partList.ram ? partList.ram : ""}
                   />
                   <span
-                    class="input-group-text bg-dark text-white"
+                    className="input-group-text bg-dark text-white"
                     id="basic-addon1"
                   >
                     GB
@@ -264,7 +264,7 @@ function Games(props) {
 
           <div className="col-12 col-md-4 my-auto">
             <div className="custom-container">
-              <button onClick={compare} type="button" class="btn btn-dark">
+              <button onClick={compare} type="button" className="btn btn-dark">
                 Benchmark Game
                 <div
                   className="progress"

@@ -38,7 +38,7 @@ function NavBar(props) {
       <Nav.Link eventKey={3} href="/games">
         Game Benchmarker
       </Nav.Link>
-      <Nav.Link eventKey={4} href="/build">
+      <Nav.Link eventKey={4} href="/builder">
         Part Builder
       </Nav.Link>
     </Nav>

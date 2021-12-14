@@ -4,6 +4,7 @@ import gpuList from "../assets/json/gpuList.json";
 import cpuList from "../assets/json/cpuList.json";
 import { SearchButton, SearchBar, Modal } from "../components";
 import logo from "../assets/logo.png";
+
 import React, { useState, useEffect, useRef } from "react";
 
 function Builder(props) {
@@ -13,9 +14,13 @@ function Builder(props) {
   let [ram, setRam] = useState("");
   let [guid, setGuid] = useState("");
   let [modalVisibility, setModalVisibility] = useState("hidden");
+//   const [value, setValue] = useChromeStorageLocal('guids', []);
+
   useEffect(() => {
+      console.log("AA")
     if (props.match.params.guid) {
       setGuid(props.match.params.guid);
+      console.log("working")
       const url =
         "https://7fazqgnr2l.execute-api.us-east-1.amazonaws.com/queryPartList?guid=" +
         props.match.params.guid;
@@ -41,7 +46,7 @@ function Builder(props) {
           return error;
         });
     }
-  });
+  }, [props.match.params.guid]);
   const gpuRef = React.useRef();
   const cpuRef = React.useRef();
   const ramRef = React.useRef();
@@ -73,6 +78,9 @@ function Builder(props) {
       })
       .then((json) => {
         const guid = json["guid"];
+
+        // setValue((prev)=>{prev.append(guid)});
+        // console.log(value);
         setGuid(guid);
         setModalVisibility("block");
       })
@@ -145,10 +153,10 @@ function Builder(props) {
             >
               RAM
             </label>
-            <div class="input-group mb-3 mx-auto" style={{ maxWidth: "17rem" }}>
+            <div className="input-group mb-3 mx-auto" style={{ maxWidth: "17rem" }}>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="ram"
                 aria-label="ram"
                 aria-describedby="basic-addon1"
@@ -156,13 +164,13 @@ function Builder(props) {
                 onChange={(e) => setRam(e.target.value)}
               />
               <span
-                class="input-group-text bg-dark text-white"
+                className="input-group-text bg-dark text-white"
                 id="basic-addon1"
               >
                 GB
               </span>
             </div>
-            <button type="button" class="btn btn-dark" onClick={createPartList}>
+            <button type="button" className="btn btn-dark" onClick={createPartList}>
               Create Part List
             </button>
           </div>

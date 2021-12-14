@@ -41,7 +41,6 @@ function SearchButton(props) {
 
   function checkForGame(e) {
     setGameValue(e.target.value);
-    setGameValue("")
     if (e.target.value == "" || e.target.value == null || e.target.value == " ") {
       setSearchList(values);
       return;

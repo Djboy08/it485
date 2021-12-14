@@ -53,25 +53,21 @@ def handler(event, context):
         sql = f'SELECT * FROM BenchpressDB.userPartList WHERE `guid` = "{guid}";'
         # cur.execute(sql)
         partList = fetch(cur, sql)[0]
-        print(partList)
         
         # fetch game data
         sql = f'SELECT * FROM BenchpressDB.Games WHERE `GameName` = "{gameName}";'
         # cur.execute(sql)
         gameData = fetch(cur, sql)[0]
-        print(gameData)
 
         # fetch GPU data
         sql = f'SELECT * FROM BenchpressDB.GPUs WHERE `model` = "{partList["gpuModel"]}";'
         # cur.execute(sql)
         gpuData = fetch(cur, sql)[0]
-        print(gpuData)
 
         # fetch CPU data
         sql = f'SELECT * FROM BenchpressDB.CPUs WHERE `model` = "{partList["cpuModel"]}";'
         # cur.execute(sql)
         cpuData = fetch(cur, sql)[0]
-        print(cpuData)
 
         partList["ram"] = float(partList["ram"])
         gameData["RAM"] = float(gameData["RAM"])
@@ -112,7 +108,6 @@ def handler(event, context):
                 compareData["cpu"] = False
             else:
                 compareData["cpu"] = True
-            print(compareData)
         elif company(cpuData["model"]) == "AMD":
             cpuToCompare = gameData["CPU_req_amd"]
             sql = f'SELECT * FROM BenchpressDB.CPUs WHERE `model` = "{cpuToCompare}";'
@@ -125,16 +120,9 @@ def handler(event, context):
                 compareData["cpu"] = False
             else:
                 compareData["cpu"] = True
-        print(compareData)
 
 
-
-    body = {
-        "guid": guid
-    }
     return {
         'statusCode': 200,
-        'body': json.dumps(partList)
+        'body': json.dumps(compareData)
     }
-
-handler({"queryStringParameters": {"guid": "b12f7f98", "gameName": "Grand Theft Auto V"}}, None)

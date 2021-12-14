@@ -6,6 +6,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Games from "./pages/Games";
+import Builder from "./pages/Builder";
 import { Footer } from "./components/index";
 // ?
 function App() {
@@ -19,19 +20,16 @@ function App() {
                 
             </Route> */}
 
-        <Route path="/contact">
-          <Contact />
-        </Route>
+        <Route path="/contact" component={Contact}/>
 
         {/* Games Page */}
-        <Route path="/games">
-          <Games />
-        </Route>
+        <Route path="/games" component={Games}/>
+
+        {/* Build Page */}
+        <Route path="/build/:guid?" component={Builder}/>
 
         {/* Main Page */}
-        <Route path="/">
-          <Home />
-        </Route>
+        <Route path="/" component={Home}/>
       </Switch>
 
       <Footer />

@@ -9,12 +9,18 @@ function SearchButton(props) {
   const [searchList, setSearchList] = useState(props.values);
   const [isOpen, setIsOpen] = useState(false);
 
+
   const menuRef = React.useRef();
   const noItems = React.useRef();
   const wrapperRef = React.useRef(null);
 
   function useOutsideAlerter(ref) {
     useEffect(() => {
+        if(props.overwrite){
+            setGameValue(props.overwrite)
+            setName(props.overwrite)
+        }
+        
       /**
        * Alert if clicked on outside of element
        */
@@ -71,7 +77,12 @@ function SearchButton(props) {
             menuRef.current.style.display = "none";
             setSearchButtonText(e.target.value);
             setGameValue(e.target.value);
-          }}
+            if(props.setValue){
+              props.setValue(e.target.value);
+            }
+
+            }
+          }
         />
       );
 
@@ -90,7 +101,8 @@ function SearchButton(props) {
 
   return (
     <>
-      <div className="dropdown btn-group">
+      <div className="dropdown btn-group mb-2">
+          
         <button
           className="btn btn-secondary dropdown-toggle"
           type="button"
@@ -101,7 +113,7 @@ function SearchButton(props) {
           onClick={onClick}
           disabled={props.disabled}
         >
-          {props.value ? props.value : searchButtonText}
+          {props.overwrite ? props.overwrite : searchButtonText}
         </button>
         <div
           id="menu"

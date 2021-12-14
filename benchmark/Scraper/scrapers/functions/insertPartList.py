@@ -33,7 +33,7 @@ def handler(event, context):
     }
     guid = str(uuid.uuid4())[:8]
     with conn.cursor() as cur:
-        sql = f'INSERT INTO BenchpressDB.userPartList (`guid`, `cpuModel`, `gpuModel`, `ram`) VALUES ("{guid}", "{data["cpuModel"]}", "{data["gpuModel"]}", "{data["ram"]}");'
+        sql = f'INSERT INTO BenchpressDB.userPartList (`guid`, `cpuModel`, `gpuModel`, `ram`) VALUES ("{guid}", "{data["cpuModel"]}", "{data["gpuModel"]}", {data["ram"]});'
         cur.execute(sql)
         conn.commit()
 

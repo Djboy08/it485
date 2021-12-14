@@ -18,9 +18,9 @@
     "Core i5-3470",
     "Core i5-650",
     "Core i7-10700K",
+    "Core i7-2600",
     "Core i7-11700F",
     "Core i7-11700K",
-    "Core i7-2600",
     "Core i7-3770",
     "Core i7-4770",
     "Core i9-11900K",
@@ -46,8 +46,8 @@
     "Ryzen 7 5800H",
     "Ryzen 7 5800X",
     "Ryzen 9 3900X",
-    "Ryzen 9 5950X",
     "Ryzen 9 4900X",
+    "Ryzen 9 5950X",
     "Ryzen Threadripper 3990X"
   ]
 }

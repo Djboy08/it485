@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 function SearchBar(props) {
   const [name, setName] = useState(props.name);
   const [values, setValues] = useState(props.values);
-
   const menuRef = React.useRef();
   const noItems = React.useRef();
   const wrapperRef = React.useRef(null);
@@ -22,6 +21,7 @@ function SearchBar(props) {
         list="datalistOptions"
         id="exampleDataList"
         placeholder="Type to search..."
+        onChange={(e)=>{props.setGame(e.target.value)}}
       />
       <datalist id="datalistOptions">
           {values.data.map((item, index) => (

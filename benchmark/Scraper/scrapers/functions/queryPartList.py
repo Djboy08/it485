@@ -29,7 +29,8 @@ def handler(event, context):
     guid = event["queryStringParameters"]["guid"]
     partList = ""
     with conn.cursor() as cur:
-        sql = f'SELECT FROM BenchpressDB.userPartList WHERE `guid` = "{guid}";'
+        sql = f'SELECT * FROM BenchpressDB.userPartList WHERE `guid` = "{guid}";'
+        print(sql)
         cur.execute(sql)
         partList = cur.fetchone()
         conn.commit()
@@ -41,3 +42,5 @@ def handler(event, context):
         'statusCode': 200,
         'body': json.dumps(partList)
     }
+
+handler({"queryStringParameters": {"guid": "cac0788b"}}, {})

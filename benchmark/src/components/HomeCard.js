@@ -1,10 +1,15 @@
 
 function HomeCard(props) {
+  let s = "bd-placeholder-img "
+  if (props.circle){
+    s = s + "rounded-circle"
+  }
+
   return (
     <>
       <div class="col-lg-4 py-5" style={{color: "white"}}>
         <svg
-          class="bd-placeholder-img rounded-circle"
+          class= {s}
           width="140"
           height="140"
           xmlns="http://www.w3.org/2000/svg"

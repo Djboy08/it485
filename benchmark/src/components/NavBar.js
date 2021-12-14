@@ -32,9 +32,8 @@ function NavBar(props) {
       </NavDropdown> */}
     </Nav>
     <Nav>
-      <Nav.Link href="">More deets</Nav.Link>
       <Nav.Link eventKey={2} href="contact">
-        Contacts
+        Contact Us
       </Nav.Link>
       <Nav.Link eventKey={3} href="games">
         Game Benchmarker
